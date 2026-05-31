@@ -1,0 +1,112 @@
+---
+import { getCollection, render } from 'astro:content';
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const guides = await getCollection('blog');
+  return guides.map((guide) => ({
+    params: { slug: guide.data.slug },
+    props: { guide },
+  }));
+};
+
+const { guide } = Astro.props;
+const g = guide.data;
+const { Content } = await render(guide);
+
+const pageTitle = `${g.title} | Active Oahu Tours Guides`;
+const pageDescription = g.description || `Read our guide: ${g.title}. Expert tips and local knowledge for your Oahu adventure from Active Oahu Tours.`;
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: g.title,
+  description: pageDescription,
+  author: {
+    '@type': 'Organization',
+    name: 'Active Oahu Tours',
+    url: 'https://activeoahutours.com',
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Active Oahu Tours',
+    logo: {
+      '@type': 'ImageObject',
+      url: 'https://activeoahutours.com/images/logo.png',
+    },
+  },
+  datePublished: g.publishedDate,
+  dateModified: g.publishedDate,
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': `https://activeoahutours.com/guides/${g.slug}/`,
+  },
+};
+
+const allGuides = await getCollection('blog');
+const relatedGuides = allGuides
+  .filter((other) => other.data.slug !== g.slug)
+  .slice(0, 3);
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  image="/images/og-guides.jpg"
+  schema={articleSchema}
+>
+  <section class="bg-navy py-12 lg:py-20">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <a href="/guides/" class="inline-flex items-center text-white/60 hover:text-gold text-sm mb-6 transition-colors">
+        <svg class="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+        </svg>
+        All Guides
+      </a>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white leading-tight mb-4">
+        {g.title}
+      </h1>
+      {g.description && (
+        <p class="text-lg text-white/70">{g.description}</p>
+      )}
+    </div>
+  </section>
+
+  <section class="py-12 lg:py-20 bg-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+      <article class="prose prose-lg max-w-none prose-headings:text-navy prose-a:text-ocean prose-strong:text-navy prose-img:rounded-2xl">
+        <Content />
+      </article>
+
+      <div class="mt-12 p-8 bg-ocean text-white rounded-2xl text-center">
+        <h2 class="text-2xl font-bold mb-3">Inspired to Explore?</h2>
+        <p class="text-white/80 mb-6">
+          Book your Oahu kayak, e-bike, or rental adventure with Active Oahu Tours today.
+        </p>
+        <a href="/#book" class="inline-flex items-center px-8 py-4 bg-gold hover:bg-gold-dark text-navy font-bold text-lg rounded-xl transition-all shadow-lg">
+          Book Your Adventure
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+          </svg>
+        </a>
+      </div>
+
+      {relatedGuides.length > 0 && (
+        <div class="mt-16">
+          <h2 class="text-2xl font-bold text-navy mb-6">More Oahu Adventure Guides</h2>
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            {relatedGuides.map((related) => (
+              <a href={`/guides/${related.data.slug}/`} class="block bg-cream rounded-xl p-5 border border-sand hover:border-ocean transition-colors">
+                <h3 class="font-semibold text-navy text-sm leading-snug mb-2">{related.data.title}</h3>
+                {related.data.description && (
+                  <p class="text-navy/50 text-xs line-clamp-2">{related.data.description}</p>
+                )}
+              </a>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  </section>
+</BaseLayout>

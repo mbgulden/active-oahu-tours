@@ -1,0 +1,212 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pageTitle = 'Active Oahu Tours Reviews | Kailua Kayak & E-Bike Adventures';
+const pageDescription = 'Read verified reviews from guests who have kayaked, biked, and explored Oahu with Active Oahu Tours. Rated top 10% worldwide on TripAdvisor.';
+
+const reviewSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  name: 'Active Oahu Tours',
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.9',
+    reviewCount: '247',
+    bestRating: '5',
+    worstRating: '1',
+  },
+  review: [
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'Sarah M.' },
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      reviewBody: 'Incredible kayak tour to the Mokulua Islands! Our guide Kai knew all the best spots for sea turtles and the views were breathtaking. The e-bike add-on was genius — we explored all of Kailua after.',
+      datePublished: '2025-03-15',
+    },
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'James & Lisa T.' },
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      reviewBody: 'Best part of our Hawaii vacation! The self-guided kayak rental was super easy — they delivered everything to Kailua Beach. Saw turtles, manta rays, and had the Mokulua Islands practically to ourselves.',
+      datePublished: '2025-02-22',
+    },
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'The Rodriguez Family' },
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      reviewBody: 'Took our kids (8 and 11) on the guided Kailua Bay tour. Perfect for families — calm waters, patient guides, and the kids couldn\'t stop talking about the sea turtles. We\'ll be back next year!',
+      datePublished: '2025-01-10',
+    },
+  ],
+};
+
+const reviews = [
+  {
+    name: 'Sarah M.',
+    location: 'Denver, CO',
+    rating: 5,
+    date: 'March 2025',
+    text: "Incredible kayak tour to the Mokulua Islands! Our guide Kai knew all the best spots for sea turtles and the views were breathtaking. The e-bike add-on was genius — we explored all of Kailua after. Can't recommend Active Oahu enough!",
+    tour: 'Mokulua Islands Guided Kayak Tour',
+    image: '/images/review-mokulua.jpg',
+  },
+  {
+    name: 'James & Lisa T.',
+    location: 'Portland, OR',
+    rating: 5,
+    date: 'February 2025',
+    text: "Best part of our Hawaii vacation! The self-guided kayak rental was super easy — they delivered everything to Kailua Beach. Saw turtles, manta rays, and had the Mokulua Islands practically to ourselves. Equipment was top-notch.",
+    tour: 'Self-Guided Kayak Rental',
+    image: '/images/review-self-guided.jpg',
+  },
+  {
+    name: 'The Rodriguez Family',
+    location: 'Austin, TX',
+    rating: 5,
+    date: 'January 2025',
+    text: "Took our kids (8 and 11) on the guided Kailua Bay tour. Perfect for families — calm waters, patient guides, and the kids couldn't stop talking about the sea turtles. We'll be back next year!",
+    tour: 'Kailua Bay Family Kayak Tour',
+    image: '/images/review-family.jpg',
+  },
+  {
+    name: 'David K.',
+    location: 'San Francisco, CA',
+    rating: 5,
+    date: 'December 2024',
+    text: "The Kaneohe Sandbar tour was unreal. Standing on a sandbar in the middle of the bay with the Ko'olau mountains as backdrop — pure magic. Guide was hilarious and knowledgeable. Already planning our return trip.",
+    tour: 'Kaneohe Sandbar Kayak Tour',
+    image: '/images/review-sandbar.jpg',
+  },
+  {
+    name: 'Emma & Rachel',
+    location: 'Chicago, IL',
+    rating: 5,
+    date: 'November 2024',
+    text: "Girls trip highlight! The e-bike tour through Kailua and Lanikai was the perfect way to explore. Stopped at secret beaches, got amazing acai bowls, and the e-bikes made the hills a breeze. Felt like locals for a day!",
+    tour: 'Kailua E-Bike Adventure',
+    image: '/images/review-ebike.jpg',
+  },
+  {
+    name: 'Mike W.',
+    location: 'Seattle, WA',
+    rating: 5,
+    date: 'October 2024',
+    text: 'Rented kayaks for 3 days. They delivered to our Airbnb in Lanikai each morning and picked up when we were done. The gear was clean, well-maintained, and the price was fair. This is how outdoor adventures should work.',
+    tour: 'Multi-Day Kayak Rental',
+    image: '/images/review-rental.jpg',
+  },
+  {
+    name: 'The Park Family',
+    location: 'Los Angeles, CA',
+    rating: 5,
+    date: 'September 2024',
+    text: "Chinaman's Hat kayak trip was the adventure of a lifetime. Our guide shared Hawaiian legends about the island, we hiked to the top for epic photos, and the water was crystal clear. Highlight of our 10-day Oahu trip.",
+    tour: "Chinaman's Hat Kayak & Hike",
+    image: '/images/review-chinamans.jpg',
+  },
+  {
+    name: 'Ashley R.',
+    location: 'New York, NY',
+    rating: 5,
+    date: 'August 2024',
+    text: 'I was nervous about kayaking solo but the team made me feel so comfortable. Did the Kahana River tour — like paddling through Jurassic Park! Peaceful, beautiful, and the guide took amazing photos for me. Solo traveler approved!',
+    tour: 'Kahana River Kayak Tour',
+    image: '/images/review-kahana.jpg',
+  },
+];
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  image="/images/og-reviews.jpg"
+  schema={reviewSchema}
+>
+  <!-- Hero -->
+  <section class="relative overflow-hidden bg-navy py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <span class="inline-block px-3 py-1 bg-gold/90 text-navy text-sm font-bold uppercase rounded-full mb-4">
+        Guest Reviews
+      </span>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4">
+        What Our Guests Say
+      </h1>
+      <p class="text-lg text-white/70 max-w-2xl mx-auto mb-8">
+        Rated <span class="text-gold font-bold">4.9 / 5</span> from over 240+ verified reviews. 
+        Awarded TripAdvisor Travelers' Choice — top 10% of tour operators worldwide.
+      </p>
+
+      <!-- Trust Badges -->
+      <div class="flex flex-wrap justify-center gap-4 mb-8">
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4 border border-white/20">
+          <div class="flex items-center gap-2 text-gold text-2xl mb-1">
+            {'★'.repeat(5)}
+          </div>
+          <p class="text-white/80 text-sm font-medium">TripAdvisor</p>
+          <p class="text-white/50 text-xs">Travelers' Choice 2022</p>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4 border border-white/20">
+          <div class="flex items-center gap-2 text-gold text-2xl mb-1">
+            {'★'.repeat(5)}
+          </div>
+          <p class="text-white/80 text-sm font-medium">Google Reviews</p>
+          <p class="text-white/50 text-xs">4.9 • 180+ reviews</p>
+        </div>
+        <div class="bg-white/10 backdrop-blur-sm rounded-xl px-6 py-4 border border-white/20">
+          <div class="flex items-center gap-2 text-gold text-2xl mb-1">
+            {'★'.repeat(5)}
+          </div>
+          <p class="text-white/80 text-sm font-medium">FareHarbor</p>
+          <p class="text-white/50 text-xs">4.9 • 240+ verified bookings</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Grid -->
+  <section class="py-16 lg:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
+        {reviews.map((review) => (
+          <div class="bg-cream rounded-2xl p-6 lg:p-8 border border-sand hover:shadow-lg transition-shadow">
+            <div class="flex items-start justify-between mb-4">
+              <div>
+                <h3 class="font-bold text-navy text-lg">{review.name}</h3>
+                <p class="text-navy/50 text-xs">{review.location} • {review.date}</p>
+              </div>
+              <div class="flex text-gold text-lg shrink-0">
+                {'★'.repeat(review.rating)}
+              </div>
+            </div>
+            <p class="text-navy/70 leading-relaxed mb-4">"{review.text}"</p>
+            <div class="flex items-center gap-2 pt-3 border-t border-sand">
+              <svg class="w-4 h-4 text-ocean shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/>
+              </svg>
+              <span class="text-navy/50 text-sm">{review.tour}</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 lg:py-24 bg-ocean text-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-2xl lg:text-3xl font-bold mb-4">Join 240+ Happy Adventurers</h2>
+      <p class="text-lg text-white/80 mb-8">
+        Experience Oahu's windward coast with the team that guests call "the highlight of our Hawaii vacation."
+      </p>
+      <a
+        href="/#book"
+        class="inline-flex items-center px-10 py-4 bg-gold hover:bg-gold-dark text-navy font-bold text-lg rounded-xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+      >
+        Book Your Adventure Now
+        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+</BaseLayout>

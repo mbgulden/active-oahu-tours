@@ -1,0 +1,163 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const pageTitle = 'Contact Active Oahu Tours | Kailua Kayak Rentals & Tours';
+const pageDescription = 'Get in touch with Active Oahu Tours. Find our Kailua location, hours, phone, email, and book directly. We\'re here to help you plan your Oahu adventure.';
+
+const contactSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  name: 'Active Oahu Tours',
+  description: pageDescription,
+  '@id': 'https://activeoahutours.com/contact',
+  url: 'https://activeoahutours.com/contact',
+  telephone: '(808) 555-1234',
+  email: 'aloha@activeoahutours.com',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '130 Kailua Road',
+    addressLocality: 'Kailua',
+    addressRegion: 'HI',
+    postalCode: '96734',
+    addressCountry: 'US',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 21.396,
+    longitude: -157.739,
+  },
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '07:00',
+      closes: '18:00',
+    },
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Saturday', 'Sunday'],
+      opens: '06:30',
+      closes: '18:00',
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  image="/images/contact-hero.jpg"
+  schema={contactSchema}
+>
+  <section class="bg-navy py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4">Get in Touch</h1>
+      <p class="text-lg text-white/70 max-w-2xl mx-auto">
+        Have questions? Ready to book? We're here to help. Reach out by phone, email, or visit us in Kailua.
+      </p>
+    </div>
+  </section>
+
+  <section class="py-16 lg:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
+        <div class="lg:col-span-1 space-y-6">
+          <div class="bg-navy text-white rounded-2xl p-6 lg:p-8">
+            <h2 class="text-xl font-bold text-gold mb-4">Visit Us</h2>
+            <p class="text-white/80 text-sm leading-relaxed mb-2">
+              130 Kailua Road<br />
+              Kailua, HI 96734
+            </p>
+            <p class="text-white/50 text-xs leading-relaxed">
+              Located near Kailua Beach Park. Look for the blue and gold shopfront with kayaks out front.
+            </p>
+            <a href="https://maps.google.com/?q=130+Kailua+Road+Kailua+HI+96734" target="_blank" rel="noopener" class="inline-flex items-center mt-4 text-sm text-gold hover:text-gold-light transition-colors">Get Directions</a>
+          </div>
+
+          <div class="bg-sand/50 rounded-2xl p-6 lg:p-8 border border-sand">
+            <h2 class="text-xl font-bold text-navy mb-4">Reach Us</h2>
+            <dl class="space-y-4">
+              <div>
+                <dt class="text-xs uppercase tracking-wider text-navy/50 mb-1">Phone</dt>
+                <dd><a href="tel:+18085551234" class="text-lg font-semibold text-ocean hover:text-ocean-light transition-colors">(808) 555-1234</a></dd>
+              </div>
+              <div>
+                <dt class="text-xs uppercase tracking-wider text-navy/50 mb-1">Email</dt>
+                <dd><a href="mailto:aloha@activeoahutours.com" class="text-lg font-semibold text-ocean hover:text-ocean-light transition-colors break-all">aloha@activeoahutours.com</a></dd>
+              </div>
+              <div>
+                <dt class="text-xs uppercase tracking-wider text-navy/50 mb-1">Social</dt>
+                <dd class="flex gap-3 mt-1">
+                  <a href="https://www.instagram.com/activeoahutours" target="_blank" rel="noopener" class="text-ocean hover:text-ocean-light transition-colors text-sm font-medium">Instagram</a>
+                  <a href="https://www.facebook.com/activeoahutours" target="_blank" rel="noopener" class="text-ocean hover:text-ocean-light transition-colors text-sm font-medium">Facebook</a>
+                </dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 lg:p-8 shadow-sm border border-sand">
+            <h2 class="text-xl font-bold text-navy mb-4">Hours of Operation</h2>
+            <dl class="space-y-3">
+              <div class="flex justify-between text-sm">
+                <dt class="text-navy/70">Monday - Friday</dt>
+                <dd class="font-semibold text-navy">7:00 AM - 6:00 PM</dd>
+              </div>
+              <div class="flex justify-between text-sm">
+                <dt class="text-navy/70">Saturday & Sunday</dt>
+                <dd class="font-semibold text-navy">6:30 AM - 6:00 PM</dd>
+              </div>
+              <div class="pt-3 border-t border-sand mt-3">
+                <p class="text-xs text-navy/50 leading-relaxed">Tours depart daily. Morning tours typically start between 7:00-8:00 AM. Afternoon tours available by request. Closed on major holidays.</p>
+              </div>
+            </dl>
+          </div>
+        </div>
+
+        <div class="lg:col-span-2 space-y-8">
+          <div class="rounded-2xl overflow-hidden shadow-md border border-sand">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3714.619472372656!2d-157.741!3d21.396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c0014f0d0d0d0d0%3A0x0!2sKailua%20Beach%20Park!5e0!3m2!1sen!2sus!4v1717000000000" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Active Oahu Tours Kailua Location Map" class="w-full"></iframe>
+          </div>
+
+          <div class="bg-ocean text-white rounded-2xl p-8 lg:p-10">
+            <h2 class="text-2xl lg:text-3xl font-bold mb-4">Ready to Book?</h2>
+            <p class="text-white/80 mb-6">Use our live booking system to check availability and reserve your spot instantly. Or give us a call — we're happy to help you choose the perfect tour.</p>
+            <div class="flex flex-col sm:flex-row gap-4">
+              <a href="https://fareharbor.com/embeds/book/activeoahutours/?full-items=yes" target="_blank" rel="noopener" class="inline-flex items-center justify-center px-8 py-3.5 bg-gold hover:bg-gold-dark text-navy font-bold text-lg rounded-xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5">Book on FareHarbor<svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/></svg></a>
+              <a href="tel:+18085551234" class="inline-flex items-center justify-center px-8 py-3.5 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-semibold text-lg rounded-xl border border-white/30 transition-all">Call (808) 555-1234</a>
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div class="bg-sand/30 rounded-xl p-5 text-center">
+              <div class="text-2xl mb-2">P</div>
+              <h3 class="font-semibold text-navy text-sm mb-1">Free Parking</h3>
+              <p class="text-navy/50 text-xs">Ample parking available at our Kailua Road location</p>
+            </div>
+            <div class="bg-sand/30 rounded-xl p-5 text-center">
+              <div class="text-2xl mb-2">Bus</div>
+              <h3 class="font-semibold text-navy text-sm mb-1">Bus Accessible</h3>
+              <p class="text-navy/50 text-xs">TheBus routes stop within walking distance of our shop</p>
+            </div>
+            <div class="bg-sand/30 rounded-xl p-5 text-center">
+              <div class="text-2xl mb-2">Bike</div>
+              <h3 class="font-semibold text-navy text-sm mb-1">Bike Parking</h3>
+              <p class="text-navy/50 text-xs">Secure bike racks available if you're arriving by bike</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-12 bg-cream">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-2xl lg:text-3xl font-bold text-navy mb-4">Prefer to Talk to a Real Person?</h2>
+      <p class="text-lg text-navy/60 mb-6">
+        Call us at <a href="tel:+18085551234" class="text-ocean font-semibold hover:underline">(808) 555-1234</a>. We answer the phone — no automated menus, no hold music. Just our team, ready to help.
+      </p>
+      <p class="text-sm text-navy/40">
+        Can't reach us? Leave a message and we'll call back within one business day. Or email <a href="mailto:aloha@activeoahutours.com" class="text-ocean hover:underline">aloha@activeoahutours.com</a> — we typically respond within 2 hours during business hours.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

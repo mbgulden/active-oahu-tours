@@ -1,0 +1,346 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const pageTitle = 'Kayak & Beach Gear Rentals Kailua | Active Oahu Tours';
+const pageDescription = 'Rent kayaks, SUPs, e-bikes, snorkel gear, and beach equipment in Kailua, Oahu. Half-day and full-day rentals with free delivery available. Book online now.';
+
+const rentalItems = [
+  {
+    name: 'Single Kayak - Half Day',
+    description: 'Premium sit-on-top single kayak. Perfect for solo adventurers. Includes paddle, PFD, and dry bag.',
+    price: 49,
+    duration: '4 hours',
+    category: 'kayak',
+  },
+  {
+    name: 'Single Kayak - Full Day',
+    description: 'Full-day single kayak rental. Explore at your own pace with premium gear and all accessories included.',
+    price: 79,
+    duration: '8 hours',
+    category: 'kayak',
+  },
+  {
+    name: 'Tandem Kayak - Half Day',
+    description: 'Two-person sit-on-top kayak. Great for couples, friends, or parent-child combos. Includes all gear.',
+    price: 69,
+    duration: '4 hours',
+    category: 'kayak',
+  },
+  {
+    name: 'Tandem Kayak - Full Day',
+    description: 'Full-day tandem kayak. More time to reach the Mokulua Islands, snorkel, and explore Kailua Bay.',
+    price: 109,
+    duration: '8 hours',
+    category: 'kayak',
+  },
+  {
+    name: 'Stand-Up Paddleboard - Half Day',
+    description: 'High-quality inflatable or hard SUP. Stable and beginner-friendly. Includes paddle, leash, and PFD.',
+    price: 45,
+    duration: '4 hours',
+    category: 'sup',
+  },
+  {
+    name: 'Stand-Up Paddleboard - Full Day',
+    description: 'Full-day SUP rental. Explore the coastline, Flat Island, or just cruise inside the reef at your leisure.',
+    price: 69,
+    duration: '8 hours',
+    category: 'sup',
+  },
+  {
+    name: 'E-Bike Rental - Half Day',
+    description: 'Premium electric bike with pedal assist. Explore Kailua, Lanikai, and the windward coast effortlessly. Helmet and lock included.',
+    price: 59,
+    duration: '4 hours',
+    category: 'ebike',
+  },
+  {
+    name: 'E-Bike Rental - Full Day',
+    description: 'Full-day e-bike adventure. Cover more ground — ride to Waimanalo, the Pali Lookout, or coastal trails.',
+    price: 89,
+    duration: '8 hours',
+    category: 'ebike',
+  },
+  {
+    name: 'Snorkel Set - Daily',
+    description: 'High-quality mask, snorkel, and fins. Explore Kailua\'s reefs and see sea turtles up close.',
+    price: 15,
+    duration: 'Per day',
+    category: 'beach',
+  },
+  {
+    name: 'Beach Chair - Daily',
+    description: 'Comfortable lightweight beach chair. Perfect for a relaxing day at Kailua or Lanikai Beach.',
+    price: 10,
+    duration: 'Per day',
+    category: 'beach',
+  },
+  {
+    name: 'Beach Umbrella - Daily',
+    description: 'UV-protective beach umbrella with sand anchor. Stay cool and protected during your beach day.',
+    price: 12,
+    duration: 'Per day',
+    category: 'beach',
+  },
+  {
+    name: 'Beach Gear Bundle',
+    description: '2 chairs + 1 umbrella + 1 cooler. Everything you need for the perfect Kailua beach day.',
+    price: 29,
+    duration: 'Per day',
+    category: 'beach',
+  },
+  {
+    name: 'Kayak - Multi-Day (3 Days)',
+    description: '3-day kayak rental for extended adventures. Includes all gear. Perfect for exploring multiple days.',
+    price: 199,
+    duration: '3 days',
+    category: 'multi',
+  },
+  {
+    name: 'E-Bike - Multi-Day (3 Days)',
+    description: '3-day e-bike rental. Your personal electric vehicle for exploring Kailua and beyond. Charger included.',
+    price: 219,
+    duration: '3 days',
+    category: 'multi',
+  },
+];
+
+const productSchemas = rentalItems.map((item, i) => ({
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: item.name,
+  description: item.description,
+  category: item.category,
+  offers: {
+    '@type': 'Offer',
+    price: item.price,
+    priceCurrency: 'USD',
+    availability: 'https://schema.org/InStock',
+    seller: {
+      '@type': 'LocalBusiness',
+      name: 'Active Oahu Tours',
+    },
+  },
+}));
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  image="/images/rentals-hero.jpg"
+  schema={productSchemas}
+>
+  <!-- Page Header -->
+  <section class="bg-navy py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <span class="inline-block px-3 py-1 bg-gold/20 text-gold text-sm font-semibold uppercase tracking-wider rounded-full mb-4">Equipment Rentals</span>
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-4">Kayak & Beach Gear Rentals in Kailua</h1>
+      <p class="text-lg text-white/70 max-w-2xl mx-auto">
+        Premium equipment for your Oahu adventure. Kayaks, SUPs, e-bikes, snorkel gear, and beach essentials — rent by the day and explore at your own pace.
+      </p>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section class="py-16 lg:py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl lg:text-4xl font-bold text-navy mb-4">How Rentals Work</h2>
+        <p class="text-lg text-navy/60 max-w-2xl mx-auto">Simple, flexible, and hassle-free. Get geared up and on the water in minutes.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 lg:gap-8">
+        <div class="text-center p-6 rounded-2xl bg-sand/50 border border-sand">
+          <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-ocean/10 text-ocean font-bold text-xl mb-4">1</div>
+          <h3 class="font-bold text-navy text-lg mb-2">Book Online</h3>
+          <p class="text-navy/60 text-sm">Reserve your gear through our live booking system. Select your date, pick your equipment, and check out instantly.</p>
+        </div>
+        <div class="text-center p-6 rounded-2xl bg-sand/50 border border-sand">
+          <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-ocean/10 text-ocean font-bold text-xl mb-4">2</div>
+          <h3 class="font-bold text-navy text-lg mb-2">Pick Up or Get Delivery</h3>
+          <p class="text-navy/60 text-sm">Swing by our Kailua Road shop for pickup, or choose delivery to Kailua Beach, Lanikai, or your accommodation (free within 3 miles).</p>
+        </div>
+        <div class="text-center p-6 rounded-2xl bg-sand/50 border border-sand">
+          <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-ocean/10 text-ocean font-bold text-xl mb-4">3</div>
+          <h3 class="font-bold text-navy text-lg mb-2">Explore & Return</h3>
+          <p class="text-navy/60 text-sm">Enjoy your adventure! Return gear to our shop by closing time (6 PM) or schedule a pickup. Late returns? Just give us a heads up.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rental Categories -->
+  <section class="py-16 lg:py-20 bg-sand/50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl lg:text-4xl font-bold text-navy mb-4">Choose Your Gear</h2>
+        <p class="text-lg text-navy/60 max-w-2xl mx-auto">All rentals include premium equipment, thorough orientation, and local tips from our team.</p>
+      </div>
+
+      <!-- Kayak Rentals -->
+      <div class="mb-16">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-10 h-10 rounded-full bg-ocean/10 flex items-center justify-center text-xl">🛶</div>
+          <h3 class="text-2xl font-bold text-navy">Kayak Rentals</h3>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {rentalItems.filter(i => i.category === 'kayak').map(item => (
+            <div class="bg-white rounded-xl p-5 shadow-sm border border-sand flex justify-between items-center">
+              <div>
+                <h4 class="font-semibold text-navy">{item.name}</h4>
+                <p class="text-xs text-navy/50 mt-0.5">{item.duration}</p>
+              </div>
+              <div class="text-right">
+                <p class="text-xl font-bold text-ocean">${item.price}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- SUP Rentals -->
+      <div class="mb-16">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-10 h-10 rounded-full bg-ocean/10 flex items-center justify-center text-xl">🏄</div>
+          <h3 class="text-2xl font-bold text-navy">Stand-Up Paddleboard Rentals</h3>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {rentalItems.filter(i => i.category === 'sup').map(item => (
+            <div class="bg-white rounded-xl p-5 shadow-sm border border-sand flex justify-between items-center">
+              <div>
+                <h4 class="font-semibold text-navy">{item.name}</h4>
+                <p class="text-xs text-navy/50 mt-0.5">{item.duration}</p>
+              </div>
+              <div class="text-right">
+                <p class="text-xl font-bold text-ocean">${item.price}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- E-Bike Rentals -->
+      <div class="mb-16">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-10 h-10 rounded-full bg-ocean/10 flex items-center justify-center text-xl">🚲</div>
+          <h3 class="text-2xl font-bold text-navy">E-Bike Rentals</h3>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {rentalItems.filter(i => i.category === 'ebike').map(item => (
+            <div class="bg-white rounded-xl p-5 shadow-sm border border-sand flex justify-between items-center">
+              <div>
+                <h4 class="font-semibold text-navy">{item.name}</h4>
+                <p class="text-xs text-navy/50 mt-0.5">{item.duration}</p>
+              </div>
+              <div class="text-right">
+                <p class="text-xl font-bold text-ocean">${item.price}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Beach Gear -->
+      <div class="mb-16">
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-10 h-10 rounded-full bg-ocean/10 flex items-center justify-center text-xl">🏖️</div>
+          <h3 class="text-2xl font-bold text-navy">Beach Gear Rentals</h3>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {rentalItems.filter(i => i.category === 'beach').map(item => (
+            <div class="bg-white rounded-xl p-5 shadow-sm border border-sand flex justify-between items-center">
+              <div>
+                <h4 class="font-semibold text-navy">{item.name}</h4>
+                <p class="text-xs text-navy/50 mt-0.5">{item.duration} • {item.description.split('.')[0]}</p>
+              </div>
+              <div class="text-right">
+                <p class="text-xl font-bold text-ocean">${item.price}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <!-- Multi-Day -->
+      <div>
+        <div class="flex items-center gap-3 mb-6">
+          <div class="w-10 h-10 rounded-full bg-ocean/10 flex items-center justify-center text-xl">📅</div>
+          <h3 class="text-2xl font-bold text-navy">Multi-Day Rentals</h3>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {rentalItems.filter(i => i.category === 'multi').map(item => (
+            <div class="bg-white rounded-xl p-5 shadow-sm border border-sand flex justify-between items-center">
+              <div>
+                <h4 class="font-semibold text-navy">{item.name}</h4>
+                <p class="text-xs text-navy/50 mt-0.5">{item.duration}</p>
+              </div>
+              <div class="text-right">
+                <p class="text-xl font-bold text-ocean">${item.price}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Delivery Service -->
+  <section class="py-16 lg:py-20 bg-cream">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="bg-white rounded-2xl p-8 lg:p-10 shadow-md border border-sand">
+        <div class="text-center mb-8">
+          <div class="text-4xl mb-3">🚚</div>
+          <h2 class="text-2xl lg:text-3xl font-bold text-navy mb-3">Free Delivery to Kailua Beach</h2>
+          <p class="text-navy/70 max-w-xl mx-auto">
+            Don't want to haul gear? We deliver kayaks, SUPs, beach chairs, umbrellas, and more directly to Kailua Beach Park, Lanikai Beach, or your vacation rental. Free delivery within 3 miles of our shop.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+          <div class="flex items-start gap-2">
+            <span class="text-ocean font-bold shrink-0">✓</span>
+            <span class="text-navy/70">Free delivery within 3 miles of Kailua</span>
+          </div>
+          <div class="flex items-start gap-2">
+            <span class="text-ocean font-bold shrink-0">✓</span>
+            <span class="text-navy/70">Set up and orientation included</span>
+          </div>
+          <div class="flex items-start gap-2">
+            <span class="text-ocean font-bold shrink-0">✓</span>
+            <span class="text-navy/70">Pickup at end of rental period</span>
+          </div>
+          <div class="flex items-start gap-2">
+            <span class="text-ocean font-bold shrink-0">✓</span>
+            <span class="text-navy/70">$15 flat fee for 3-6 mile deliveries</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-16 lg:py-24 bg-ocean text-white">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-2xl lg:text-3xl font-bold mb-4">Ready to Rent?</h2>
+      <p class="text-lg text-white/80 mb-8">Check availability and reserve your gear now. Or call us — we'll help you pick the right equipment.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="https://fareharbor.com/embeds/book/activeoahutours/?full-items=yes"
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center px-8 py-3.5 bg-gold hover:bg-gold-dark text-navy font-bold text-lg rounded-xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+        >
+          Book Rentals Online
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+          </svg>
+        </a>
+        <a
+          href="tel:+18085551234"
+          class="inline-flex items-center px-8 py-3.5 bg-white/10 hover:bg-white/20 text-white font-semibold text-lg rounded-xl border border-white/30 transition-all"
+        >
+          (808) 555-1234
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

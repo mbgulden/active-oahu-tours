@@ -1,28 +1,104 @@
 # Cloudflare Pages Redirects — Active Oahu Tours
-# Reference: https://developers.cloudflare.com/pages/platform/redirects/
-# 
-# IMPORTANT: These redirects run AFTER the Astro build.
-# For Astro-level redirects, use astro.config.mjs redirects.
-# Files in public/ are copied to dist/ on build.
+# Auto-generated from WordPress content inventory
+#
+# IMPORTANT: Place this file in Astro's public/ directory.
+# Cloudflare Pages applies these AFTER the Astro build.
 
-# ── Old WordPress paths → new Astro anchors ─────────────
-/tours                          /#tours                     301
-/tours/kayak-mokulua           /#tours                     301
-/tours/kayak-kaneohe            /#tours                     301
-/tours/ebike-kailua             /#tours                     301
-/about                          /#about                     301
-/contact                        /#contact                   301
-/faq                            /#faq                       301
+# ── Homepage ──
+/home-2                         /                              301
 
-# ── Booking deep links → FareHarbor ──────────────────────
-/book                           https://fareharbor.com/embeds/book/activeoahu/  301
-/reserve                        https://fareharbor.com/embeds/book/activeoahu/  301
+# ── Core Pages ──
+/about-active-oahu-tours        /about                         301
+/contact-us                     /contact                       301
+/faq                            /faq                           301
+/cancellation-policy            /cancellation                  301
+/privacy-policy                 /privacy                       301
+/reviews                        /reviews                       301
+/active-oahu-photo-gallery      /                              301  # merge into home
+/join-the-team                  /about                         301
+/kailua-oahu-storefront         /about                         301
 
-# ── WWW → apex canonical ─────────────────────────────────
+# ── Tour Pages ──
+/activities                                             /tours                         301
+/activities/chinamans-hat-self-guided-oahu-kayak-tour   /tours/kayak-kailua            301
+/activities/kahana-rainforest-river-oahu-kayak-tour     /tours/kayak-kailua            301
+/activities/kailua-bay-mokulua-island-self-guided-kayak-tour /tours/kayak-mokulua     301
+/activities/kailua-e-bike-kau-kau-guided-adventure      /tours/ebike-kailua            301
+/activities/kailua-kayak-twin-islands-guided-tour       /tours/kayak-mokulua           301
+/activities/popoia-island-and-kailua-bay-guided-kayak-tour /tours/kayak-kailua         301
+
+# ── Rental Pages ──
+/oahu-equipment-rentals                                         /rentals                       301
+/oahu-equipment-rentals/how-to-transport-kayaks-and-sups-from-our-shop-in-kailua-to-the-beach  /rentals  301
+/oahu-equipment-rentals/kayak-rental-near-chinamans-hat         /rentals                       301
+/multi-day-kayak-and-beach-gear-rentals                         /rentals                       301
+/multi-day-kayak-and-beach-gear-rentals/kayak-beach-gear-rental-partners  /rentals              301
+
+# ── Guides / Blog ──
+/guides                                                     /guides                        301
+/oahu-kayaking-and-beach-adventures                         /guides                        301
+/about-active-oahu-tours/awards/active-oahu-llc-wins-2022-tripadvisor-travelers-choice-award-for-tours-and-activities/ /blog/active-oahu-llc-wins-2022-tripadvisor-travelers-choice-award-for-tours-and-activities/ 301
+/about-active-oahu-tours/awards/active-oahu-recognized-one-top-10-hospitality-businesses-world/ /blog/active-oahu-recognized-one-top-10-hospitality-businesses-world/ 301
+/about-active-oahu-tours/awards/                   /blog/awards/                       301
+/multi-day-kayak-and-beach-gear-rentals/kayak-beach-gear-rental-partners/become-a-partner/ /blog/become-a-partner/             301
+/oahu-kayaking-and-beach-adventures/best-places-to-kayak-on-oahu/ /blog/best-places-to-kayak-on-oahu/ 301
+/oahu-kayaking-and-beach-adventures/chinamans-hat-kayak-adventure/ /blog/chinamans-hat-kayak-adventure/ 301
+/oahu-equipment-rentals/chinamans-hat-kayak-rentals/ /blog/chinamans-hat-kayak-rentals/  301
+/oahu-kayaking-and-beach-adventures/discover-oahus-best-snorkel-spot-at-electric-beach/ /blog/discover-oahus-best-snorkel-spot-at-electric-beach/ 301
+/oahu-kayaking-and-beach-adventures/e-bike-rentals-in-kailua/ /blog/e-bike-rentals-in-kailua/     301
+/oahu-equipment-rentals/extend-the-aloha-donate-your-beach-gear-before-you-fly/ /blog/extend-the-aloha-donate-your-beach-gear-before-you-fly/ 301
+/faq/faq-chinamans-hat-kayak-hike/                 /blog/faq-chinamans-hat-kayak-hike/ 301
+/oahu-kayaking-and-beach-adventures/guide-to-towing-kayaks-with-e-bikes-in-kailua/ /blog/guide-to-towing-kayaks-with-e-bikes-in-kailua/ 301
+/oahu-kayaking-and-beach-adventures/hidden-hawaiian-paradise-explore-kawela-bay-on-oahu/ /blog/hidden-hawaiian-paradise-explore-kawela-bay-on-oahu/ 301
+/oahu-kayaking-and-beach-adventures/honolulu-the-best-food-activities-and-social-scene-on-oahu/ /blog/honolulu-the-best-food-activities-and-social-scene-on-oahu/ 301
+/oahu-equipment-rentals/how-to-transport-kayaks-and-sups-from-our-shop-in-kailua-to-the-beach/ /blog/how-to-transport-kayaks-and-sups-from-our-shop-in-kailua-to-the-beach/ 301
+/oahu-kayaking-and-beach-adventures/kahana-river-kayak-adventure/ /blog/kahana-river-kayak-adventure/ 301
+/oahu-kayaking-and-beach-adventures/kailua-e-bike-kau-kau-guided-adventure/ /blog/kailua-e-bike-kau-kau-guided-adventure/ 301
+/oahu-kayaking-and-beach-adventures/kalama-beach-bodyboarding-adventure/ /blog/kalama-beach-bodyboarding-adventure/ 301
+/oahu-kayaking-and-beach-adventures/kaneohe-sandbar-kayak-experience/ /blog/kaneohe-sandbar-kayak-experience/ 301
+/oahu-kayaking-and-beach-adventures/kaneohe-sandbar-self-guided-kayak-adventure/ /blog/kaneohe-sandbar-self-guided-kayak-adventure/ 301
+/multi-day-kayak-and-beach-gear-rentals/kayak-beach-gear-rental-partners/ /blog/kayak-beach-gear-rental-partners/ 301
+/oahu-kayaking-and-beach-adventures/kayak-deliveries-on-oahu/ /blog/kayak-deliveries-on-oahu/     301
+/oahu-equipment-rentals/kayak-rental-delivery-locations/ /blog/kayak-rental-delivery-locations/ 301
+/oahu-equipment-rentals/kayak-rental-near-chinamans-hat/ /blog/kayak-rental-near-chinamans-hat/ 301
+/oahu-kayaking-and-beach-adventures/lanikai-e-bike-and-snorkel-self-guided-tour/ /blog/lanikai-e-bike-and-snorkel-self-guided-tour/ 301
+/oahu-kayaking-and-beach-adventures/lanikai-e-bike-snorkel-and-pillbox-hike-self-guided-adventure/ /blog/lanikai-e-bike-snorkel-and-pillbox-hike-self-guided-adventure/ 301
+/oahu-kayaking-and-beach-adventures/lanikai-pillbox-hike-adventure-guide/ /blog/lanikai-pillbox-hike-adventure-guide/ 301
+/oahu-kayaking-and-beach-adventures/mokulua-islands-self-guided-kayak-adventure/ /blog/mokulua-islands-self-guided-kayak-adventure/ 301
+/oahu-kayaking-and-beach-adventures/               /blog/oahu-kayaking-and-beach-adventures/ 301
+/oahu-kayaking-and-beach-adventures/popoia-island-kayaking-adventure/ /blog/popoia-island-kayaking-adventure/ 301
+/oahu-kayaking-and-beach-adventures/rent-beach-gear-for-multiple-days-with-active-oahu/ /blog/rent-beach-gear-for-multiple-days-with-active-oahu/ 301
+/oahu-equipment-rentals/standard-meeting-location-info/ /blog/standard-meeting-location-info/ 301
+/oahu-kayaking-and-beach-adventures/store-your-bags-explore-kailua-bounce-luggage-storage-service-available-at-active-oahu/ /blog/store-your-bags-explore-kailua-bounce-luggage-storage-service-available-at-active-oahu/ 301
+/oahu-kayaking-and-beach-adventures/the-ultimate-guide-for-the-north-shore-of-oahu/ /blog/the-ultimate-guide-for-the-north-shore-of-oahu/ 301
+/oahu-kayaking-and-beach-adventures/the-ultimate-guide-to-exploring-windward-oahu/ /blog/the-ultimate-guide-to-exploring-windward-oahu/ 301
+/oahu-kayaking-and-beach-adventures/top-5-things-to-do-on-oahu/ /blog/top-5-things-to-do-on-oahu/   301
+/oahu-kayaking-and-beach-adventures/top-things-to-do-near-ko-olina-resort/ /blog/top-things-to-do-near-ko-olina-resort/ 301
+/oahu-kayaking-and-beach-adventures/ultimate-guide-for-kailua-beach-park-experience-windward-oahus-safest-and-most-adventurous-beach/ /blog/ultimate-guide-for-kailua-beach-park-experience-windward-oahus-safest-and-most-adventurous-beach/ 301
+/oahu-kayaking-and-beach-adventures/ultimate-guide-to-lanikai-beach/ /blog/ultimate-guide-to-lanikai-beach/ 301
+/oahu-kayaking-and-beach-adventures/what-to-do-in-kailua-hidden-gems-and-must-sees/ /blog/what-to-do-in-kailua-hidden-gems-and-must-sees/ 301
+
+# ── Affiliate / Partner Pages ──
+/tiki-moon-villas              /rentals                       301
+/owens-retreat                 /rentals                       301
+/kuilima-estates-at-turtle-bay /rentals                       301
+/hawaii-life                   /rentals                       301
+/hawaii-seaside-realty         /rentals                       301
+/become-a-partner              /contact                       301
+
+# ── Awards & Misc ──
+/about-active-oahu-tours/awards                                                                          /about    301
+/about-active-oahu-tours/awards/active-oahu-llc-wins-2022-tripadvisor-travelers-choice-award-for-tours-and-activities  /about  301
+/active-oahu-recognized-one-top-10-hospitality-businesses-world                                          /about    301
+/trip-cancellation-insurance-terms-and-conditions                                                        /cancellation  301
+/store-your-bags-explore-kailua-bounce-luggage-storage-service-available-at-active-oahu                  /rentals  301
+
+# ── Booking Deep Links → FareHarbor ──
+/book                           https://fareharbor.com/embeds/book/activeoahu/?full-items=yes  301
+/reserve                        https://fareharbor.com/embeds/book/activeoahu/?full-items=yes  301
+
+# ── WWW → Apex Canonical ──
 https://www.activeoahutours.com/*  https://activeoahutours.com/:splat  301
 
-# ── Trailing slash consistency ───────────────────────────
-# Astro handles this; but catch any stragglers
-/contact/                       /contact                    301
-/about/                         /about                      301
-/faq/                           /faq                        301
+# ── Trailing Slash Consistency ──
+# Astro handles trailing slashes via build config
