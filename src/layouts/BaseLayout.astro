@@ -54,6 +54,17 @@ const imageURL = image.startsWith('http') ? image : new URL(image, Astro.site).h
 
     <!-- FareHarbor Booking API (loads once globally) -->
     <script is:inline src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes"></script>
+
+    <!-- Google Analytics (GA4) -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-PRRRLMBR8Z"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-PRRRLMBR8Z', {
+        linker: { domains: ['activeoahutours.com', 'active-oahu-tours.pages.dev'] }
+      });
+    </script>
   </head>
 
   <body class="min-h-screen bg-white text-navy antialiased flex flex-col">
