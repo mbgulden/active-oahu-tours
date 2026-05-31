@@ -6,23 +6,25 @@ export default {
       colors: {
         navy: {
           DEFAULT: '#1a2744',
-          light: '#243656',
-        },
-        ocean: {
-          DEFAULT: '#2b6cb0',
-          light: '#3b82c4',
-          dark: '#1e4d8c',
+          light: '#243356',
         },
         gold: {
-          DEFAULT: '#d4a574',
-          light: '#e0bc96',
-          dark: '#b8894e',
+          DEFAULT: '#f5a623',
+          dark: '#d4941e',
         },
-        cream: '#f8f5f0',
-        sand: '#f0ebe0',
+        ocean: {
+          DEFAULT: '#2e86ab',
+          light: '#3a9ec8',
+        },
+        sand: {
+          DEFAULT: '#e8dcc8',
+        },
+        cream: {
+          DEFAULT: '#faf7f2',
+        },
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+        sans: ['system-ui', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
       },
     },
   },
