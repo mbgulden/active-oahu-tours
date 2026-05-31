@@ -55,19 +55,20 @@ const imageURL = image.startsWith('http') ? image : new URL(image, Astro.site).h
     <!-- FareHarbor Booking API (loads once globally) -->
     <script is:inline src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes"></script>
 
-    <!-- Google Analytics (GA4) -->
-    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-PRRRLMBR8Z"></script>
+    <!-- Google Tag Manager (manages GA4 + Ads conversions) -->
     <script is:inline>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-PRRRLMBR8Z', {
-        linker: { domains: ['activeoahutours.com', 'active-oahu-tours.pages.dev'] }
-      });
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-P55TSP');
     </script>
   </head>
 
   <body class="min-h-screen bg-white text-navy antialiased flex flex-col">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P55TSP"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Navigation -->
     <header class="sticky top-0 z-50 bg-navy shadow-lg">
       <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
