@@ -4,7 +4,7 @@ slug: "kayak-rental-delivery-locations"
 pageType: "blog"
 oldUrl: "/oahu-equipment-rentals/kayak-rental-delivery-locations/"
 newUrl: "/blog/kayak-rental-delivery-locations/"
-description: "Adventure with ease, visit our Kailua shop and we will get you set up to kayak the best locations on Oahu. Our Top 6 Kayak Rental Locations: Mokolii (Chinaman’s Hat) at Kualoa Regional Park is a popular paddling location for those looking to kayak to Chinaman’s Hat, Mokolii. We are just a 35-minu..."
+description: "Adventure with ease, visit our Kailua shop and we will get you set up to kayak the best locations on Oahu. Our Top 6 Kayak Rental Locations: Mokolii (Chinama..."
 ---
 
 Adventure with ease, visit [our Kailua shop](https://activeoahutours.com/kailua-oahu-storefront/) and we will get you set up to kayak the best locations on Oahu.

@@ -11,9 +11,9 @@ description: "About Kailua Kailua is a beach town located on the Windward side o
 
 Kailua is a beach town located on the Windward side of Oahu, about a 30 minute drive from Waikiki. Whether you arrive by car, take the city bus, or hop in a rideshare, the drive itself is scenic and full of postcard worthy views. With its shop-lined streets, amazing restaurants, incredible beaches, hikes, and local hidden gems, it’s the ultimate adventure hub and should definitely earn a place on your itinerary for your trip to the island. Whether you are planning a quick day-trip or are looking to make Kailua your home base for a few days, there is something for everyone to enjoy with it’s variety of activities and adventures.
 
-- ![Two people sit on top of the Lanikai Pillbox overlooking the ocean](https://activeoahutours.com/wp-content/uploads/2025/04/Untitled-design-4.png)
-- ![Guests pose with their e-bike rentals outside Active Oahu](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-E-Bikes-11.jpg)
-- ![people using kayak rentals from Active Oahu to get to the Mokulua Islands](https://activeoahutours.com/wp-content/uploads/2025/05/Screenshot-2025-05-01-at-2.08.42 PM.png)
+- ![Two people sit on top of the Lanikai Pillbox overlooking the ocean](/images/placeholder-tour.jpg)
+- ![Guests pose with their e-bike rentals outside Active Oahu](/images/placeholder-tour.jpg)
+- ![people using kayak rentals from Active Oahu to get to the Mokulua Islands](/images/placeholder-tour.jpg PM.png)
 
 #### **The Best Beaches**
 
@@ -25,9 +25,9 @@ Kailua is home to world-famous beaches that you’ll want to spend all day soaki
 
 - Kalama Beach: Kalama Beach is known for being one of the best spots for beginning bodyboarding, with waves that are family friendly. There is also a life guard stand at this beach to give you peace of mind as you play in the waves. Learn more about bodyboarding at Kalama Beach here: [Kalama Beach Bodyboarding Adventure](https://activeoahutours.com/oahu-kayaking-and-beach-adventures/kalama-beach-bodyboarding-adventure/)
 
-- ![Beach chairs, a boogie board, snorkel gear, and cooler rented from Active Oahu set up on the beach](https://activeoahutours.com/wp-content/uploads/2025/05/Active-Oahu-November-2-3.jpg)
-- ![](https://activeoahutours.com/wp-content/uploads/2025/05/Active-Oahu-November-100.jpg)
-- ![A boy holds a boogie board rental from Active Oahu while standing in the ocean water at sunset](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-November-55.jpg)
+- ![Beach chairs, a boogie board, snorkel gear, and cooler rented from Active Oahu set up on the beach](/images/placeholder-tour.jpg)
+- ![](/images/placeholder-tour.jpg)
+- ![A boy holds a boogie board rental from Active Oahu while standing in the ocean water at sunset](/images/placeholder-tour.jpg)
 
 #### **Paddle Adventures**
 
@@ -37,9 +37,9 @@ Kailua is the perfect place to explore the crystal clear waters of Oahu on a kay
 
 - Kayak to the Mokulua Islands: Known as Kailua’s twin islands, this is a great adventure for those looking for a longer paddle. These offshore islands take about one hour to paddle to, and once you arrive you’ll be awarded with stunning views and the opportunity to explore tide pools and even take a dip in the Queen’s Bath. Learn more about our tours to the Mokulua Islands here: [Mokulua Islands Self Guided Kayak Adventure](https://activeoahutours.com/oahu-kayaking-and-beach-adventures/mokulua-islands-self-guided-kayak-adventure/)
 
-- ![Two tandem kayak rentals from Active Oahu heading to the Mokulua Islands](https://activeoahutours.com/wp-content/uploads/2025/05/Screenshot-2025-05-01-at-2.11.13 PM.png)
-- ![people paddling to Popoia Island using tandem kayak rentals from Active Oahu](https://activeoahutours.com/wp-content/uploads/2025/05/vlcsnap-2024-02-21-19h45m35s105-1024x512.jpg)
-- ![Two people enter the water with a tandem kayak rental from Active Oahu](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-312.jpg)
+- ![Two tandem kayak rentals from Active Oahu heading to the Mokulua Islands](/images/placeholder-tour.jpg PM.png)
+- ![people paddling to Popoia Island using tandem kayak rentals from Active Oahu](/images/placeholder-tour.jpg)
+- ![Two people enter the water with a tandem kayak rental from Active Oahu](/images/placeholder-tour.jpg)
 
 #### **Hidden Gems**
 
@@ -51,7 +51,7 @@ In addition to the abundant water activities available in Kailua, there are also
 
 - Hamakua Marsh Trail: This scenic trail is the perfect place for e-biking with stunning views of the mountain ranges. You’ll also have the opportunity to observe the unique wildlife that live in the Marsh as you cruise down the path.
 
-![people e-biking on a scenic Marsh trail in Kailua](https://activeoahutours.com/wp-content/uploads/2025/04/ebike_path2_drone-1024x512.jpg)
+![people e-biking on a scenic Marsh trail in Kailua](/images/placeholder-tour.jpg)
 
 #### **Unique Experiences**
 
@@ -59,9 +59,9 @@ In addition to the abundant water activities available in Kailua, there are also
 
 - Lanikai E-Bike, Snorkel, and Pillbox Hike Self Guided Adventure: Experience the best Kailua has to offer on land and in the water with this ultimate adventure. Begin by e-biking to the pillbox hike trailhead, hike to the pillboxes where you’ll have some of the most epic views on the island, and finish by cooling off and snorkeling in Lanikai Beach. Learn more and make a booking here: [Lanikai E-bike, Snorkel, and Pillbox Hike Self Guided Adventure](https://activeoahutours.com/oahu-kayaking-and-beach-adventures/lanikai-e-bike-snorkel-and-pillbox-hike-self-guided-adventure/)
 
-- ![visitors e-bike on a path overlooking Lanikai Beach](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-445-2-1.jpg)
-- ![Two people on top of the Lanikai Pillbox](https://activeoahutours.com/wp-content/uploads/2025/04/Untitled-design-5.png)
-- ![Snorkelers in the water at Lanikai Beach](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-481.jpg)
+- ![visitors e-bike on a path overlooking Lanikai Beach](/images/placeholder-tour.jpg)
+- ![Two people on top of the Lanikai Pillbox](/images/placeholder-tour.jpg)
+- ![Snorkelers in the water at Lanikai Beach](/images/placeholder-tour.jpg)
 
 #### **Places to Eat**
 

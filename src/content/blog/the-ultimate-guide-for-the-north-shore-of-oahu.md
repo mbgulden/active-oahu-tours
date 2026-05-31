@@ -4,7 +4,7 @@ slug: "the-ultimate-guide-for-the-north-shore-of-oahu"
 pageType: "blog"
 oldUrl: "/oahu-kayaking-and-beach-adventures/the-ultimate-guide-for-the-north-shore-of-oahu/"
 newUrl: "/blog/the-ultimate-guide-for-the-north-shore-of-oahu/"
-description: "Oahu’s North Shore is a must-visit destination for anyone looking to experience the island’s beauty, local charm, and hidden gems. Known around the world for its massive winter surf, the North Shore beaches also transform into calm, crystal-clear water during the summer months, perfect for swimmi..."
+description: "Oahu’s North Shore is a must-visit destination for anyone looking to experience the island’s beauty, local charm, and hidden gems. Known around the world for..."
 ---
 
 Oahu’s North Shore is a must-visit destination for anyone looking to experience the island’s beauty, local charm, and hidden gems. Known around the world for its massive winter surf, the North Shore beaches also transform into calm, crystal-clear water during the summer months, perfect for swimming, snorkeling, and kayaking. The North Shore is also known for its iconic food spots located along the coastline. Located about an hour drive from the airport, the North Shore provides an escape from the busier touristy areas, allowing you to relax and enjoy your adventures at your own pace. The North Shore is packed with experiences waiting to be had by adventurers of all kinds.
@@ -35,9 +35,9 @@ During the summer months, North Shore beaches are incredible for swimming and su
 
 - Snorkel at Turtle Bay
 
-- ![two people with snorkel gear rentals from Active Oahu at Turtle Bay](https://activeoahutours.com/wp-content/uploads/2026/02/Active-Oahu-Fall-2025-turtle-bay-snorkel-8.jpg)
-- ![Two people get snorkel gear rentals on at Turtle Bay](https://activeoahutours.com/wp-content/uploads/2026/02/Active-Oahu-Fall-2025-turtle-bay-snorkel-10.jpg)
-- ![Two people snorkel at Turtle Bay on the North Shore of Oahu](https://activeoahutours.com/wp-content/uploads/2026/02/Active-Oahu-Fall-2025-turtle-bay-snorkel-14.jpg)
+- ![two people with snorkel gear rentals from Active Oahu at Turtle Bay](/images/placeholder-tour.jpg)
+- ![Two people get snorkel gear rentals on at Turtle Bay](/images/placeholder-tour.jpg)
+- ![Two people snorkel at Turtle Bay on the North Shore of Oahu](/images/placeholder-tour.jpg)
 
 #### **Winter Activities**
 

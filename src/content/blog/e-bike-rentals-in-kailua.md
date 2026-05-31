@@ -9,13 +9,13 @@ description: "At Active Oahu, we offer a fun, convenient, and one-of-a-kind way 
 
 At Active Oahu, we offer a fun, convenient, and one-of-a-kind way to experience Oahu by renting electric bikes. Kailua is the perfect beach town for e-biking because of all the local adventures that are accessible by bike. Kailua is also made with bikers in mind, with plenty of bike lanes and bike paths that will get you anywhere you want to go while keeping safety a priority.
 
-![E-bike rentals outside of Active Oahu in Kailua](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-E-Bikes-11.jpg)
+![E-bike rentals outside of Active Oahu in Kailua](/images/placeholder-tour.jpg)
 
 ## **About Our E-Bikes**
 
 We offer two different models of E-bikes for rent from the Electric Bike Company. Our bench seat bikes are sporty and ultra maneuverable. Our comfort seat bikes offer comfortable cruising with a basket attached to the back to carry all the gear you need for your adventure. Both models have a maximum speed of 20 miles an hour with a thumb throttle and the ability to increase or decrease the boost from the motor. Our bikes are easy to use and our adventure guides will give you a brief tutorial on how to operate them when you arrive at our shop. You’ll have the opportunity to ride them around and practice to gain your confidence before leaving the shop if you are new to riding e-bikes. We also have dry bags, snorkel gear, and other beach gear you can rent to bring with you for the day.
 
-![E-bike rentals on a bike rack outside.](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-E-Bikes-143.jpg)
+![E-bike rentals on a bike rack outside.](/images/placeholder-tour.jpg)
 
 ## **Places to E-Bike**
 
@@ -33,12 +33,12 @@ We offer two different models of E-bikes for rent from the Electric Bike Company
 
 - Add a kayak trailer and tow a kayak to the Kailua Beach to gain access to Popoia Island and the Mokulua Islands. Visit this page to learn more about towing kayaks with an e-bike: [Guide to Towing Kayaks with E-Bikes in Kailua](https://activeoahutours.com/oahu-kayaking-and-beach-adventures/guide-to-towing-kayaks-with-e-bikes-in-kailua/)
 
-- ![Visitors test riding the electric bikes](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-390-2.jpg)
-- ![Example of a lookout spot visitors can electric bike to in Kailua](https://activeoahutours.com/wp-content/uploads/2025/04/Untitled-design-2.png)
-- ![electric bike on the beach at sunset](https://activeoahutours.com/wp-content/uploads/2025/05/DSC1458-2.jpg)
-- ![four guests electric biking at a scenic spot in Kailua](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-E-Bikes-124-3-1024x683.jpg)
-- ![guests e-biking to a scenic lookout in Kailua overlooking the ocean](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-E-Bikes-127-1024x683.jpg)
-- ![people e-biking on a scenic Marsh trail in Kailua](https://activeoahutours.com/wp-content/uploads/2025/04/ebike_path2_drone-1024x512.jpg)
+- ![Visitors test riding the electric bikes](/images/placeholder-tour.jpg)
+- ![Example of a lookout spot visitors can electric bike to in Kailua](/images/placeholder-tour.jpg)
+- ![electric bike on the beach at sunset](/images/placeholder-tour.jpg)
+- ![four guests electric biking at a scenic spot in Kailua](/images/placeholder-tour.jpg)
+- ![guests e-biking to a scenic lookout in Kailua overlooking the ocean](/images/placeholder-tour.jpg)
+- ![people e-biking on a scenic Marsh trail in Kailua](/images/placeholder-tour.jpg)
 
 #### **Tour Options**
 
@@ -46,7 +46,7 @@ We offer two different models of E-bikes for rent from the Electric Bike Company
 
 - Kailua E-bike Kau Kau Guided Adventure: If you’d prefer to follow one of our expert guides around town and have them show you an off-the-beaten path experience full of local favorite stops, this tour is for you! Visit this link to learn more about this guided tour: [Kailua E-Bike Kau Kau Guided Adventure](https://activeoahutours.com/oahu-kayaking-and-beach-adventures/kailua-e-bike-kau-kau-guided-adventure/)
 
-![three people e-biking at a scenic location in Kailua](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-E-Bikes-105-1024x683.jpg)
+![three people e-biking at a scenic location in Kailua](/images/placeholder-tour.jpg)
 
 #### **Make Your Booking Today**
 

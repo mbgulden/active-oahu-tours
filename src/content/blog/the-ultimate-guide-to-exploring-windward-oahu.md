@@ -4,7 +4,7 @@ slug: "the-ultimate-guide-to-exploring-windward-oahu"
 pageType: "blog"
 oldUrl: "/oahu-kayaking-and-beach-adventures/the-ultimate-guide-to-exploring-windward-oahu/"
 newUrl: "/blog/the-ultimate-guide-to-exploring-windward-oahu/"
-description: "Windward Oahu is one of the Islands most scenic and diverse regions in Hawaii and the perfect destination for thrilling adventures, spectacular views, and good food. With towering green mountains and charming beach towns, it offers a more relaxed vibe than the bustling city life in Honolulu. In t..."
+description: "Windward Oahu is one of the Islands most scenic and diverse regions in Hawaii and the perfect destination for thrilling adventures, spectacular views, and go..."
 ---
 
 Windward Oahu is one of the Islands most scenic and diverse regions in Hawaii and the perfect destination for thrilling adventures, spectacular views, and good food. With towering green mountains and charming beach towns, it offers a more relaxed vibe than the bustling city life in Honolulu. In this guide, we will take you through the very best Windward Oahu has to offer. From iconic spots like Lanikai Beach to hidden gems along the coast, there is an adventure for everyone!
@@ -15,23 +15,23 @@ The Windward Side of Oahu offers unique conditions that make it one of the  bes
 
 - Paddle to Popoia Island: Just a 20 minute paddle from Kailua Beach, Popoia Island is a great destination for those who are new to kayaking in the ocean and are looking for something exciting, yet beginner friendly. Learn more about kayaking to Popoia Island here: [Popoia Island Kayaking Adventure](https://activeoahutours.com/oahu-kayaking-and-beach-adventures/popoia-island-kayaking-adventure/)
 
-![](https://activeoahutours.com/wp-content/uploads/2025/04/Screenshot-2025-04-28-at-3.10.07 PM-650x365.png)
+![](/images/placeholder-tour.jpg PM-650x365.png)
 
 - Paddle to the Mokulua Islands: For those looking for a longer adventure out on the water, Kailua’s Twin Islands are the perfect paddle! Located about an hour’s paddle from Kailua Beach, this thrilling adventure will land you on the Mokulua Islands where you can explore tide pools and even the famous “Queen’s Bath”. Learn more about kayaking to the Mokulua Islands here: [Mokulua Islands Self Guided Kayak Adventure](https://activeoahutours.com/oahu-kayaking-and-beach-adventures/mokulua-islands-self-guided-kayak-adventure/)
 
-![](https://activeoahutours.com/wp-content/uploads/2025/05/Screenshot-2025-05-01-at-2.11.13 PM-650x363.png)
+![](/images/placeholder-tour.jpg PM-650x363.png)
 
 - Paddle to Chinaman’s Hat: Combining the thrill of paddling in the ocean with the surreal views from the top of the hike at Chinaman’s hat, this is easily one of Oahu’s most unique and popular kayaking destinations. About a 30 minute paddle from Kualoa Regional Park, followed by a 15 minute hike to the top, this adventure boasts stunning views of the Koolau Mountain Range and a one-of-a-kind experience. Learn more about Paddling to Chinaman’s Hat here: [Chinamans Hat Kayak Adventure](https://activeoahutours.com/oahu-kayaking-and-beach-adventures/chinamans-hat-kayak-adventure/)
 
-![](https://activeoahutours.com/wp-content/uploads/2025/04/DJI_0500_1-2-650x433.jpg)
+![](/images/placeholder-tour.jpg)
 
 - Paddle through the Kahana Rainforest River and Bay: Searching for a more serene and scenic paddle? Look no further than the Kahana Rainforest! This paddle will take you through the calm waters of Kahana River lined with rope swings and picture perfect views, with the option to continue on and kayak in Kahana Bay with incredible views of the Koolau Mountains. Click here to learn more about paddling in the Kahana rainforest: [Kahana River Kayak Adventure](https://activeoahutours.com/oahu-kayaking-and-beach-adventures/kahana-river-kayak-adventure/)
 
-![](https://activeoahutours.com/wp-content/uploads/2025/04/DJI_0689_1-2-488x650.jpg)
+![](/images/placeholder-tour.jpg)
 
 - Paddle out to the Kaneohe Sandbar: Another one of Oahu’s most unique adventures is kayaking out to the Kaneohe Sandbar. Located about a 45 minute paddle from the launch spot, this experience includes amazing snorkeling opportunities as you paddle as well as the surreal feeling of standing up in the middle of the ocean when you reach the sandbar. Pack a cooler with snacks and drinks and make a day of hanging out at the sandbar. Visit this page to learn more about kayaking to the sandbar: [Kaneohe Sandbar Self Guided Kayak Adventure](https://activeoahutours.com/oahu-kayaking-and-beach-adventures/kaneohe-sandbar-self-guided-kayak-adventure/)
 
-![A group of people hanging out on the Kaneohe sandbar with their kayak rental from Active Oahu](https://activeoahutours.com/wp-content/uploads/2025/05/Active-Oahu-Lifestyle-191-650x433.jpg)
+![A group of people hanging out on the Kaneohe sandbar with their kayak rental from Active Oahu](/images/placeholder-tour.jpg)
 
 #### **Outdoor Activities**
 
@@ -55,16 +55,16 @@ In addition to the paddling adventures, there are more one-of-a-kind adventures 
 
 - Kaiona Beach Park: A beautiful sandy beach that is perfect for a beach day and a variety of water activities including snorkeling in the crystal clear water, swimming, paddleboarding, and kayaking.
 
-- ![a person standing in the ocean holds a boogie board rental.](https://activeoahutours.com/wp-content/uploads/2025/05/Active-Oahu-November-10-2.jpg)
-- ![Beach chairs, a boogie board, snorkel gear, and cooler rented from Active Oahu set up on the beach](https://activeoahutours.com/wp-content/uploads/2025/05/Active-Oahu-November-2-3.jpg)
-- ![Two people with snorkel gear on a tandem kayak rental from Active Oahu](https://activeoahutours.com/wp-content/uploads/2025/05/Active-Oahu-Lifestyle-180.jpg)
-- ![Two people kayak on their tandem kayak rental from Active Oahu](https://activeoahutours.com/wp-content/uploads/2025/05/Active-Oahu-Lifestyle-161.jpg)
-- ![Two people on their e-bike rentals from Active Oahu on a bike path in Kailua](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-361.jpg)
-- ![A group of people on e-bike rentals from Active Oahu](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-E-Bikes-11-2-1-1024x683.jpg)
-- ![people walk into the waters of Lanikai beach with snorkel gear rentals](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-473-2.jpg)
-- ![E-bike rentals from Active Oahu locked to a bike rack outside.](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-E-Bikes-143-2-1024x683.jpg)
-- ![guests e-biking to a scenic lookout in Kailua overlooking the ocean](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-E-Bikes-127-1024x683.jpg)
-- ![Two people on top of the Lanikai Pillbox](https://activeoahutours.com/wp-content/uploads/2025/04/Untitled-design-5.png)
+- ![a person standing in the ocean holds a boogie board rental.](/images/placeholder-tour.jpg)
+- ![Beach chairs, a boogie board, snorkel gear, and cooler rented from Active Oahu set up on the beach](/images/placeholder-tour.jpg)
+- ![Two people with snorkel gear on a tandem kayak rental from Active Oahu](/images/placeholder-tour.jpg)
+- ![Two people kayak on their tandem kayak rental from Active Oahu](/images/placeholder-tour.jpg)
+- ![Two people on their e-bike rentals from Active Oahu on a bike path in Kailua](/images/placeholder-tour.jpg)
+- ![A group of people on e-bike rentals from Active Oahu](/images/placeholder-tour.jpg)
+- ![people walk into the waters of Lanikai beach with snorkel gear rentals](/images/placeholder-tour.jpg)
+- ![E-bike rentals from Active Oahu locked to a bike rack outside.](/images/placeholder-tour.jpg)
+- ![guests e-biking to a scenic lookout in Kailua overlooking the ocean](/images/placeholder-tour.jpg)
+- ![Two people on top of the Lanikai Pillbox](/images/placeholder-tour.jpg)
 
 #### **Best Food Spots on The Windward Side**
 

@@ -4,7 +4,7 @@ slug: "faq-chinamans-hat-kayak-hike"
 pageType: "blog"
 oldUrl: "/faq/faq-chinamans-hat-kayak-hike/"
 newUrl: "/blog/faq-chinamans-hat-kayak-hike/"
-description: "What type of person would enjoy kayaking and hiking Chinaman’s Hat? — If you are more of an ocean adventurer, Chinaman’s Hat could be the way to go! It is a fun paddle out to an island that offers incredible and unique views of the famous Kualoa mountain. Along the way, it is common to […]"
+description: "What type of person would enjoy kayaking and hiking Chinaman’s Hat? — If you are more of an ocean adventurer, Chinaman’s Hat could be the way to go! It is a..."
 ---
 
 **What type of person would enjoy kayaking and hiking Chinaman’s Hat?** — If you are more of an ocean adventurer, Chinaman’s Hat could be the way to go! It is a fun paddle out to an island that offers incredible and unique views of the famous Kualoa mountain. Along the way, it is common to run into turtles, rays, fish, and the occasional Monk Seal which could make this experience really exciting.

@@ -4,7 +4,7 @@ slug: "oahu-kayaking-and-beach-adventures"
 pageType: "blog"
 oldUrl: "/oahu-kayaking-and-beach-adventures/"
 newUrl: "/blog/oahu-kayaking-and-beach-adventures/"
-description: "We go on lots of Oahu adventures and want to share how you can enjoy them too, so we have started making this collection to highlight our favorite trips. Check out our deep dive into some of the best adventures on Oahu Kaneohe Sandbar Kayak Experience Get more info about our self-guided kayak tou..."
+description: "We go on lots of Oahu adventures and want to share how you can enjoy them too, so we have started making this collection to highlight our favorite trips. Che..."
 ---
 
 We go on lots of Oahu adventures and want to share how you can enjoy them too, so we have started making this collection to highlight our favorite trips. 

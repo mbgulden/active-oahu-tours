@@ -4,7 +4,7 @@ slug: "top-things-to-do-near-ko-olina-resort"
 pageType: "blog"
 oldUrl: "/oahu-kayaking-and-beach-adventures/top-things-to-do-near-ko-olina-resort/"
 newUrl: "/blog/top-things-to-do-near-ko-olina-resort/"
-description: "Whether you are staying at one of the luxurious Ko Olina Resorts and Hotels or simply passing through this scenic area on Oahu’s leeward coast, you’ll find that Ko Olina is the perfect launch point for unforgettable island adventures. This guide will provide you with everything you need to know i..."
+description: "Whether you are staying at one of the luxurious Ko Olina Resorts and Hotels or simply passing through this scenic area on Oahu’s leeward coast, you’ll find t..."
 ---
 
 Whether you are staying at one of the luxurious Ko Olina Resorts and Hotels or simply passing through this scenic area on Oahu’s leeward coast, you’ll find that Ko Olina is the perfect launch point for unforgettable island adventures. This guide will provide you with everything you need to know in order to create a memorable itinerary for your trip to the island. Get ready to discover some of Oahu’s best hidden gems, off-the-beaten path experiences, and family friendly activities–all just minutes away from your Ko Olina stay. 

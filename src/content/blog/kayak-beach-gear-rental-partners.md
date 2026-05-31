@@ -4,7 +4,7 @@ slug: "kayak-beach-gear-rental-partners"
 pageType: "blog"
 oldUrl: "/multi-day-kayak-and-beach-gear-rentals/kayak-beach-gear-rental-partners/"
 newUrl: "/blog/kayak-beach-gear-rental-partners/"
-description: "At Active Oahu Tours, we believe in providing our clients with an unparalleled customer experience. We can deliver to most vacation rentals on the island, whether your property is on the North Shore or you have multiple properties across the island. We strive to provide your guests with seamless,..."
+description: "At Active Oahu Tours, we believe in providing our clients with an unparalleled customer experience. We can deliver to most vacation rentals on the island, wh..."
 ---
 
 At Active Oahu Tours, we believe in providing our clients with an unparalleled customer experience. We can deliver to most vacation rentals on the island, whether your property is on the North Shore or you have multiple properties across the island. We strive to provide your guests with seamless, hassle-free experiences so they can focus on enjoying their vacations and their stays at your property.
@@ -21,13 +21,13 @@ Follow the button below if you are interested in joining our growing list of loc
 
 Check out our vacation rental partners:
 
-![](https://activeoahutours.com/wp-content/uploads/2022/08/Tiki-Moon-Villas-logo.jpg)
+![](/images/placeholder-tour.jpg)
 
 #### [Tiki Moon Villas](https://tikimoonvillas.com/)
 
 Rent a Beach bungalow for your holiday in Laie
 
-![](https://activeoahutours.com/wp-content/uploads/2022/08/kbb-logo80e.jpg)
+![](/images/placeholder-tour.jpg)
 
 #### [Ke Iki Beach Bungalows](https://keikibeach.com/)
 
@@ -39,19 +39,19 @@ Oceanside Bungalows on Oahu’s Beautiful North Shore.
 
 Affordable beachfront vacation rentals on Oahu
 
-![](https://activeoahutours.com/wp-content/uploads/2022/08/kuilima-estates-at-turtle-bay-logo.svg)
+![](/images/placeholder-tour.jpg)
 
 #### [Kuilima Estates a](https://turtlebay-rentals.com/)[t Turtle Bay](https://turtlebay-rentals.com/)
 
 Vacation Rental Condos located on a North Shore Championship Golf Course
 
-![](https://activeoahutours.com/wp-content/uploads/2022/08/owens-retreat-logo.jpg)
+![](/images/placeholder-tour.jpg)
 
 #### [Mokulē’ia Beach Houses at Owen’s Retreat](https://www.owensretreat.com/)
 
 Beach front vacation rental homes on the North Shore since 1950
 
-![oahu hawaii seaside realty](https://activeoahutours.com/wp-content/uploads/2022/08/hawaii-seaside-realty-logo.png)
+![oahu hawaii seaside realty](/images/placeholder-tour.jpg)
 
 #### [Hawaii Seaside Realty](https://www.hiseasiderealty.com/)
 

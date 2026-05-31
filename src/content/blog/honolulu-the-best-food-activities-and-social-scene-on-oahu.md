@@ -39,8 +39,8 @@ Honolulu is a foodie’s dream- with just about any type of cuisine you can imag
 
 - Check out Cultural Events at Royal Hawaiian Center: From free hula and ukulele lessons to native Hawaiian song and dance performances, the Royal Hawaiian Center events give you the opportunity to become immersed in Hawaiian culture. Check out their schedule of events here: [Royal Hawaiian Center Events](https://www.royalhawaiiancenter.com/events)
 
-- ![two people with their beach rental gear on a beach in Honolulu](https://activeoahutours.com/wp-content/uploads/2026/02/Active-Oahu-Fall-2025-85.jpg)
-- ![Beach gear rentals set up on a beach in Honolulu](https://activeoahutours.com/wp-content/uploads/2026/02/Active-Oahu-Fall-2025-80.jpg)
+- ![two people with their beach rental gear on a beach in Honolulu](/images/placeholder-tour.jpg)
+- ![Beach gear rentals set up on a beach in Honolulu](/images/placeholder-tour.jpg)
 
 #### **Make a Booking**
 

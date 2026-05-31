@@ -4,7 +4,7 @@ slug: "trip-cancellation-insurance-terms-and-conditions"
 pageType: "page"
 oldUrl: "/trip-cancellation-insurance-terms-and-conditions/"
 newUrl: "/trip-cancellation-insurance/"
-description: "Add-on trip cancellation insurance for just $10. If Trip Cancellation Insurance is not applied upon booking, the standard cancellation policy applies. You can only add Trip Cancellation Insurance during the initial booking process. Trip Cancellation Insurance cannot be added after the trip has be..."
+description: "Add-on trip cancellation insurance for just $10. If Trip Cancellation Insurance is not applied upon booking, the standard cancellation policy applies. You ca..."
 ---
 
 Add-on trip cancellation insurance for just $10. If Trip Cancellation Insurance is not applied upon booking, the standard [cancellation policy](https://activeoahutours.com/cancellation-policy/) applies. You can only add Trip Cancellation Insurance during the initial booking process. Trip Cancellation Insurance cannot be added after the trip has been booked.

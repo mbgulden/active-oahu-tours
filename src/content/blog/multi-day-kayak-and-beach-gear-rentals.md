@@ -4,7 +4,7 @@ slug: "multi-day-kayak-and-beach-gear-rentals"
 pageType: "page"
 oldUrl: "/multi-day-kayak-and-beach-gear-rentals/"
 newUrl: "/multi-day-rentals/"
-description: "Multi-Day Kayak and Beach Gear Rentals We make renting beach gear for more than one day a breeze and deliver the equipment straight to you. Rent for multiple days, you get a discounted rate. We offer multiple pick-up and drop-off times. Beach gear can be rented from 2 days up to 21 days. We are […]"
+description: "Multi-Day Kayak and Beach Gear Rentals We make renting beach gear for more than one day a breeze and deliver the equipment straight to you. Rent for multiple..."
 ---
 
 # Multi-Day Kayak and Beach Gear Rentals

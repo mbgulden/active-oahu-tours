@@ -9,7 +9,7 @@ description: "Planning on using beach gear for multiple days on your trip to the
 
 Planning on using beach gear for multiple days on your trip to the island? At Active Oahu we offer affordable rates for multi-day rentals of a variety of beach gear. You can either pick up the gear at our storefront in Kailua and return it when you are done, or we offer free delivery and pickup to any hotel, resort, or vacation rental on the island to make your experience easy and hassle-free.
 
-![Beach chairs, snorkel gear, and other beach gear rented from Active Oahu set up on a beach](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-November-2.jpg)
+![Beach chairs, snorkel gear, and other beach gear rented from Active Oahu set up on a beach](/images/placeholder-tour.jpg)
 
 #### **What You Can Rent**
 
@@ -37,7 +37,7 @@ Planning on using beach gear for multiple days on your trip to the island? At Ac
 
 - Three Person Kayaks
 
-![beach gear rentals from Active Oahu set up on a beach in Hawaii](https://activeoahutours.com/wp-content/uploads/2025/07/Active-Oahu-Lifestyle-95.jpg)
+![beach gear rentals from Active Oahu set up on a beach in Hawaii](/images/placeholder-tour.jpg)
 
 #### **Free Delivery**
 
@@ -71,9 +71,9 @@ Wherever you are staying on the island, there are incredible adventures to be ha
 
 - E-bike around Kailua Town: Rent e-bikes and experience all the adventures Kailua has to offer while cruising around on two wheels. e-bikes will give you easy access to the most popular spots and you won’t have to battle for parking. Learn more about our e-bike rentals here: [E-bike Rentals in Kailua](https://activeoahutours.com/oahu-kayaking-and-beach-adventures/e-bike-rentals-in-kailua/)
 
-- ![people paddling to Popoia Island using tandem kayak rentals from Active Oahu](https://activeoahutours.com/wp-content/uploads/2025/05/vlcsnap-2024-02-21-19h45m35s105-1024x512.jpg)
-- ![Two people on their e-bike rentals from Active Oahu on a bike path in Kailua](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-361.jpg)
-- ![Beach gear rentals from Active Oahu set up on the beach in Hawaii](https://activeoahutours.com/wp-content/uploads/2025/07/Active-Oahu-Lifestyle-35.jpg)
+- ![people paddling to Popoia Island using tandem kayak rentals from Active Oahu](/images/placeholder-tour.jpg)
+- ![Two people on their e-bike rentals from Active Oahu on a bike path in Kailua](/images/placeholder-tour.jpg)
+- ![Beach gear rentals from Active Oahu set up on the beach in Hawaii](/images/placeholder-tour.jpg)
 
 #### **Make a Booking**
 

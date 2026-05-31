@@ -11,15 +11,15 @@ description: "Towing Kayaks with E-Bikes: The Ultimate Adventure At Active Oahu,
 
 At Active Oahu, we offer a unique adventure by combining the thrill of cruising around town on an electric bike with exploring in the water using kayaks. Imagine taking in the sights of Kailua Town while feeling the wind in your hair as you cruise along coastline paths and through charming beach town streets. Once you reach the shoreline, trade your wheels for water as you launch into the waters of some of Oahu’s most iconic beaches. With our easy-to-use e-bikes and simple towing mechanism, this is an experience suitable for beginners and seasoned adventurers alike. Join us for a one-of-a-kind way to experience Oahu.
 
-![Transporting kayaks using electric bikes and a trailer](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-222.jpg)
+![Transporting kayaks using electric bikes and a trailer](/images/placeholder-tour.jpg)
 
 #### **How it Works**
 
 Your adventure-filled day begins at our adventure hub in Kailua. Since you’ll be using e-bikes for this experience, you can either get dropped off or leave your vehicle at our storefront, or take the city bus or rideshare services. When you arrive, our adventure guides will have everything set up so that you can spend less time waiting around and more time out making memories to last a lifetime. Our adventure guides will show you how to operate the electric bikes and kayak trailers, give you directions and tips, and let you practice riding around the shop to gain confidence before you head out. Your rental comes with everything you need to transport the kayak using the trailer and e-bike as well as paddles and life jackets. Dry bags snorkel gear will also be available to add on to your rental for additional cost. You’ll have the option to rent out our e-bikes and kayaks for four hours or a full day, leaving you with lots of options on how to enjoy your day in Kailua.
 
-- ![Alternative way to transport a kayak to the beach using an electric bike and a trailer.](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-183.jpg)
-- ![Showing how to attach a kayak trailer to an electric bike.](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-233.jpg)
-- ![Lifting a kayak off of a trailer at the beach.](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-247.jpg)
+- ![Alternative way to transport a kayak to the beach using an electric bike and a trailer.](/images/placeholder-tour.jpg)
+- ![Showing how to attach a kayak trailer to an electric bike.](/images/placeholder-tour.jpg)
+- ![Lifting a kayak off of a trailer at the beach.](/images/placeholder-tour.jpg)
 
 #### **Where We Recommend Going**
 
@@ -33,9 +33,9 @@ Kailua Beach is the perfect place to tow the kayaks to using the e-bikes. Locate
 
 These options allow you to choose your own adventure depending on you skill level and the conditions. Whether you are searching for a family adventure or a full day out on the water, there’s something for everyone when you launch from Kailua Beach. Feel free to ask our adventure guides what they recommend for your group based on your needs and experience level.
 
-- ![Using electric bikes to transport a kayak to the beach](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-226.jpg)
-- ![A man and a woman kayak in the ocean](https://activeoahutours.com/wp-content/uploads/2025/05/Active-Oahu-Lifestyle-169.jpg)
-- ![Example of where to kayak on Oahu](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-327.jpg)
+- ![Using electric bikes to transport a kayak to the beach](/images/placeholder-tour.jpg)
+- ![A man and a woman kayak in the ocean](/images/placeholder-tour.jpg)
+- ![Example of where to kayak on Oahu](/images/placeholder-tour.jpg)
 
 #### **Why Choose to Tow Kayaks Using E-Bikes**
 
@@ -51,7 +51,7 @@ These options allow you to choose your own adventure depending on you skill leve
 
 - Perfect for those searching for a unique, off the beaten path adventure.
 
-![Example of where to e-bike on Oahu](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-372.jpg)
+![Example of where to e-bike on Oahu](/images/placeholder-tour.jpg)
 
 #### **Make Your Booking Today**
 

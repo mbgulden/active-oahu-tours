@@ -11,7 +11,7 @@ description: "Need a Place to Store Your Luggage While in Oahu? We’ve Got You 
 
 Whether you are arriving early before a hotel check-in, checking out with hours to spare before a flight, or just want to explore the area without towing your bags around, the question always arises: what do we do with all our stuff? Good news! Active Oahu has an affordable and convenient solution for you. We’ve partnered with Bounce, a leading luggage storage company, to offer secure, affordable, and flexible storage right in the heart of Kailua Town.
 
-![A sign advertising Bounce Luggage Service with Active Oahu sits on top of a counter next to Bounce luggage tags.](https://activeoahutours.com/wp-content/uploads/2025/05/IMG_7597-1-768x1024.jpeg)
+![A sign advertising Bounce Luggage Service with Active Oahu sits on top of a counter next to Bounce luggage tags.](/images/placeholder-tour.jpg)
 
 ## **How it Works**
 

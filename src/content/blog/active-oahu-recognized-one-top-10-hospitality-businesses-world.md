@@ -4,10 +4,10 @@ slug: "active-oahu-recognized-one-top-10-hospitality-businesses-world"
 pageType: "blog"
 oldUrl: "/about-active-oahu-tours/awards/active-oahu-recognized-one-top-10-hospitality-businesses-world/"
 newUrl: "/blog/active-oahu-recognized-one-top-10-hospitality-businesses-world/"
-description: "Thanks to the satisfied customers and awesome staff, we’ve earned Trip Advisor’s 2021 Travelers’ Choice Award. Only the top 10% of hospitality(tours and rental businesses included) qualify for this award and we are grateful to receive it. We strive to make our kayak and beach gear deliveries a br..."
+description: "Thanks to the satisfied customers and awesome staff, we’ve earned Trip Advisor’s 2021 Travelers’ Choice Award. Only the top 10% of hospitality(tours and rent..."
 ---
 
-![](https://activeoahutours.com/wp-content/uploads/2022/03/Tripadvisor-awards_Website.jpg)
+![](/images/placeholder-tour.jpg)
 
 Thanks to the satisfied customers and awesome staff, we’ve earned **Trip Advisor’s 2021 Travelers’ Choice Award**. Only the top 10% of hospitality(tours and rental businesses included) qualify for this award and we are grateful to receive it.
 

@@ -35,7 +35,7 @@ We provide kayak rentals for Chinaman’s Hat next to Kualoa Regional Park. Othe
 
 We meet you at our shop at 134B Hamakua Dr., Kailua, Oahu, and get you setup with your gear. It’s just a short 30 minutes from Waikiki and 35 minutes from Kualoa Regional Park (the parking area to kayak to Mokolii, Chinaman’s Hat). From there you drive to Kualoa Regional Park. It’s a large park with plenty of parking but the lot can get busy on holidays, summer days, and weekends. You’ll probably want to park near the bathrooms for convenience. It’s also the shortest path to the shoreline from one of the many parking lots in Kualoa Regional Park.
 
-![](https://activeoahutours.com/wp-content/uploads/2023/08/Kayak-rental-kualoa-map_Outlines_Kualoa-Regional-Park-Parking-and-Kayak-Launch.svg)
+![](/images/placeholder-tour.jpg)
 
 All of this information will be included in the confirmation email as well as Google Maps links to help guide you to the exact locations.
 ## Renting Kayaks and Beach Gear From Active Oahu
@@ -44,7 +44,7 @@ We make kayaking adventures a breeze for you and your group. You’ll get all th
 
 ### Our gear
 
-![Tandem Kayak Rentals on Oahu, Free Delivery](https://activeoahutours.com/wp-content/uploads/2018/11/DSC5291_2000_2000_1x2.5-1024x409.jpg)
+![Tandem Kayak Rentals on Oahu, Free Delivery](/images/placeholder-tour.jpg)
 
 All of our kayaks are tandem kayaks but can be used as singles easily. All tandem kayaks have a center seat that can either be used when there’s just one person in the kayak or you have a small child that will not be paddling. If you are over 250lbs you will want your own kayak so that you can be more stable and safe while you paddle.
 
@@ -88,11 +88,11 @@ Here are a couple more reasons why kayaking to Chianaman’s Hat is amazing
 
 ### Kayaking to Chinaman’s Hat
 
-![kayaking and hiking chinaman's hat](https://activeoahutours.com/wp-content/uploads/2019/09/IMG_6601-edited-web-650x488.jpg)
+![kayaking and hiking chinaman's hat](/images/placeholder-tour.jpg)
 
 Chinaman’s hat is at the edge of Kaneohe Bay and benefits from shallow water, a reef, and generally calm conditions. The water is only about 10-12 feet in the deeper spots and generally about 5-7ft deep. When you start paddling out the water is only a few feet deep. It’s a good idea to wear your athletic shoes on the kayak or wear water socks to avoid cutting your feet on the reef.
 
-![](https://activeoahutours.com/wp-content/uploads/2023/08/kayak-rental-kualoa-route_Outlines-01.svg)
+![](/images/placeholder-tour.jpg)
 
 ### When kayaking to Mokoli’i:
 
@@ -110,7 +110,7 @@ Ocean kayaking Chinaman’s hat can be dangerous. especially if you try to circu
 
 Also, **do not** drink alcohol and kayak. Bodies of water and alcohol are not a good combo.
 
-![](https://activeoahutours.com/wp-content/uploads/2019/09/IMG_8356-edited-web-650x375.jpg)
+![](/images/placeholder-tour.jpg)
 
 ### Hiking Chinaman’s Hat
 
@@ -122,7 +122,7 @@ There are 2 options when it comes to hiking Chinaman’s hat:
 
 #### Hiking up Mokolii
 
-![](https://activeoahutours.com/wp-content/uploads/2019/09/rental-delivery-kualoa-hike-top-01.jpg)
+![](/images/placeholder-tour.jpg)
 
 Hiking up the islet is dangerous. So, be responsible, watch your footing, hold on tight, and be safe. We have you sign a liability waiver before using any of our equipment.
 
@@ -130,13 +130,13 @@ Once there you’ll land on a sandy inlet and get ready to check out the offshor
 
 #### Hiking around Mokolii
 
-![](https://activeoahutours.com/wp-content/uploads/2019/09/rental-delivery-kualoa-hike-around-01-1.jpg)
+![](/images/placeholder-tour.jpg)
 
 Hiking around Chinaman’s hat is much easier than going straight to the top, but each has plenty of rocks and will require you to put on some athletic shoes.
 
 The backside of Mokolii has some tide pools and a nice mini inlet where you can sometimes land your kayak, but only on super calm glassy days.
 
-![hiking chinaman's hat](https://activeoahutours.com/wp-content/uploads/2019/09/IMG_8506-edited-web-650x321.jpg)
+![hiking chinaman's hat](/images/placeholder-tour.jpg)
 
 The trail up to the top of Mokolii is steep, but not too long, rocky, and sometimes slippery but plenty doable if you are looking for great views of the windward coast. Although, you don’t have to hike all the way to the top to get great views from Chinaman’s Hat.
 
@@ -147,11 +147,11 @@ Beware of all hikes in Hawaii. The rocks are known to give away and make climbin
 
 Finally, after a tricky bit of climbing, you can get to the top of Chinaman’s hat with a panoramic view of the East side of Oahu (Windward Oahu). You might recognize the mountains from Jurassic Park or some other epic movie backdrop. Also, don’t forget the amazing breeze you feel on top. After sweating to hike all the way up, it’s refreshing to step up to the top and feel that nice cool air wash over you. Totally worth it. Here are some pictures of the view at the top of Mokolii:
 
-![Kayaking to Chinaman's hat](https://activeoahutours.com/wp-content/uploads/2016/11/Oahu-Kayaking-Tours_1-650x289.jpg)
+![Kayaking to Chinaman's hat](/images/placeholder-tour.jpg)
 
 ### Kayak back to shore at Kualoa Regional Park
 
-![Where to get kayaks for chinaman's hat](https://activeoahutours.com/wp-content/uploads/2019/09/IMG_6728-edited-web-650x435.jpg)
+![Where to get kayaks for chinaman's hat](/images/placeholder-tour.jpg)
 
 Now that you know you can get your kayak rental near Chinaman’s Hat, experience it for yourself! It’s a trip you can do over and over and never always experience something new. Views that awe, experiences that inspire. It doesn’t get much better than this. We’ve got the best Chinaman’s Hat Kayak Rentals around, so give us a call at (808)498-1894 or book online and have an adventure!
 

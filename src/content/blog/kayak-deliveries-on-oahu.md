@@ -4,12 +4,12 @@ slug: "kayak-deliveries-on-oahu"
 pageType: "blog"
 oldUrl: "/oahu-kayaking-and-beach-adventures/kayak-deliveries-on-oahu/"
 newUrl: "/blog/kayak-deliveries-on-oahu/"
-description: "Want to experience the adventure of kayaking in Hawaii without the hassle of picking it up and transporting it from a shop? We offer kayak delivery to any hotel, resort, or vacation rental on the island. Let us bring the fun straight to your door with our kayak delivery service! Kayak Rental Opti..."
+description: "Want to experience the adventure of kayaking in Hawaii without the hassle of picking it up and transporting it from a shop? We offer kayak delivery to any ho..."
 ---
 
 Want to experience the adventure of kayaking in Hawaii without the hassle of picking it up and transporting it from a shop? We offer kayak delivery to any hotel, resort, or vacation rental on the island. Let us bring the fun straight to your door with our kayak delivery service!
 
-![A man and a woman kayak in the ocean](https://activeoahutours.com/wp-content/uploads/2025/05/Active-Oahu-Lifestyle-169.jpg)
+![A man and a woman kayak in the ocean](/images/placeholder-tour.jpg)
 
 #### **Kayak Rental Options**
 
@@ -21,23 +21,23 @@ At Active Oahu, we offer three different kayak delivery options to best fit the 
 
 - Three Person Kayak Rentals: Perfect for families as they allow for two paddlers, one passenger, and still have room for a cooler or dry bag! Learn more about our three-person kayaks here: 
 
-- ![two kayak rentals from Active Oahu on the shoreline](https://activeoahutours.com/wp-content/uploads/2025/07/DSC6210.jpg)
-- ![Three kayaks strapped onto a blue four door vehicle](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-160-2.jpg)
-- ![A vehicle with two kayaks stacked on top](https://activeoahutours.com/wp-content/uploads/2025/04/Active-Oahu-45-2.jpg)
+- ![two kayak rentals from Active Oahu on the shoreline](/images/placeholder-tour.jpg)
+- ![Three kayaks strapped onto a blue four door vehicle](/images/placeholder-tour.jpg)
+- ![A vehicle with two kayaks stacked on top](/images/placeholder-tour.jpg)
 
 #### **Where We Deliver**
 
 Local laws prohibit delivery of kayaks or other water equipment directly to the beaches. As a result, we are pleased to offer delivery to wherever you are staying and provide everything you need to transport your kayak on top of your own vehicle including foam pads or roof racks and straps. That way you can avoid the hassle of going out of your way to pickup rentals from a shop.
 
-![two kayak rentals from Active Oahu on trolleys](https://activeoahutours.com/wp-content/uploads/2025/07/DSC6109.jpg)
+![two kayak rentals from Active Oahu on trolleys](/images/placeholder-tour.jpg)
 
 #### **Free Delivery**
 
 When you book with us at Active Oahu, we will deliver all your gear for free after you meet our $76 booking minimum. Our free delivery and pickup services allow you to spend more time enjoying the beauty of Hawaii and less time worrying about the logistics of getting gear and hauling it around. Let us help make your vacation memorable and stress free with our beach gear rental deliveries!
 
-- ![](https://activeoahutours.com/wp-content/uploads/2025/05/DJI_0082-1024x512.jpg)
-- ![three kayak rentals from Active Oahu in the ocean](https://activeoahutours.com/wp-content/uploads/2025/04/DJI_0536_1-2.jpg)
-- ![](https://activeoahutours.com/wp-content/uploads/2025/04/DJI_0500_1-2.jpg)
+- ![](/images/placeholder-tour.jpg)
+- ![three kayak rentals from Active Oahu in the ocean](/images/placeholder-tour.jpg)
+- ![](/images/placeholder-tour.jpg)
 
 #### **Make a Booking**
 

@@ -4,7 +4,7 @@ slug: "faq-oahu-beach-gear-rentals"
 pageType: "page"
 oldUrl: "/faq-oahu-beach-gear-rentals/"
 newUrl: "/faq/"
-description: "Our Oahu Beach Gear Rentals are here to make your Oahu adventures a breeze. Here are the steps: Call or Book Online: Select your equipment, Choose your day, time, and place (private address or storefront in Kailua) for the pickup & drop-off. Enjoy your day or week with the beach gear. We pick up ..."
+description: "Our Oahu Beach Gear Rentals are here to make your Oahu adventures a breeze. Here are the steps: Call or Book Online: Select your equipment, Choose your day,..."
 ---
 
 Our Oahu Beach Gear Rentals are here to make your Oahu adventures a breeze. Here are the steps:

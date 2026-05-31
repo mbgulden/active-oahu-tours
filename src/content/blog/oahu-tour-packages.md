@@ -4,7 +4,7 @@ slug: "oahu-tour-packages"
 pageType: "page"
 oldUrl: "/oahu-tour-packages/"
 newUrl: "/tours/"
-description: "Contact us for custom Oahu tour packages to help make your vacation a breeze. We offer the best ways to experience Oahu with our tours, rentals and a selection of our trusted partners combined. We can also offer plenty of helpful tips that are great for beginners and seasoned travelers alike. Tel..."
+description: "Contact us for custom Oahu tour packages to help make your vacation a breeze. We offer the best ways to experience Oahu with our tours, rentals and a selecti..."
 ---
 
 Contact us for custom Oahu tour packages to help make your vacation a breeze.

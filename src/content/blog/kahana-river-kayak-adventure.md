@@ -4,20 +4,20 @@ slug: "kahana-river-kayak-adventure"
 pageType: "blog"
 oldUrl: "/oahu-kayaking-and-beach-adventures/kahana-river-kayak-adventure/"
 newUrl: "/blog/kahana-river-kayak-adventure/"
-description: "Not only is Kahana one of the most beautiful parts of Oahu to explore, but it’s also rich in history and culture. Immerse yourself in this significant historical location on the water with our self-guided kayak tour. Paddling up the Kahana river through lush forests and around Kahana Bay, surroun..."
+description: "Not only is Kahana one of the most beautiful parts of Oahu to explore, but it’s also rich in history and culture. Immerse yourself in this significant histor..."
 ---
 
 Not only is Kahana one of the most beautiful parts of Oahu to explore, but it’s also rich in history and culture. Immerse yourself in this significant historical location on the water with our self-guided kayak tour. Paddling up the Kahana river through lush forests and around Kahana Bay, surrounded by the towering Ko’olau mountains, offers a unique way to experience the stunning landscapes of the valley and spot native plants and sea life. This hidden gem of Oahu is the perfect place for your next adventure on the island!
 
-![Two people on a tandem kayak rental from Active Oahu in Kahana Bay](https://activeoahutours.com/wp-content/uploads/2025/04/Oahu-Kayak-Tours_5_1-2.jpg)
+![Two people on a tandem kayak rental from Active Oahu in Kahana Bay](/images/placeholder-tour.jpg)
 
 ## Historical Significance
 
 Kahana is a place of rich history. Long before western civilization came to the islands, Native Hawaiians thrived in this area, forming strong agricultural communities. They made use of the fertile land surrounding the river and planted diverse tropical fruits and plants including taro, guava, breadfruit, mango, tapioca, sugarcane, coconut, and sweet potato. Groves of Hawaiian bamboo and kukui and hala trees served as ancient dwellings. This land belonged to the native Hawaiian people, however, when Europeans came to the island they introduced trade, plantations, diseases and even a shift in use of the land, as it was used as training grounds during World War II. These changes impacted the local population as well as the cultural and environmental parts of Kahana. As time passed, the local people grew worried about the future of their beloved land and eventually sold it to the state who would make efforts to preserve the area. The deal was made that allowed the residents to acquire a 65 year lease and in turn, the families would provide help in preserving Kahana as a cultural living park. Today only 31 families still live in Kahana, preserving their connection to the land and its legacy.
 
-![A girl paddling a tandem kayak rental from Active Oahu in Kahana Bay](https://activeoahutours.com/wp-content/uploads/2025/04/Untitled-design-22-2.png)
+![A girl paddling a tandem kayak rental from Active Oahu in Kahana Bay](/images/placeholder-tour.jpg)
 
-![People on kayak rentals from Active Oahu paddling in Kahana River](https://activeoahutours.com/wp-content/uploads/2025/04/IMG_4617-edited-2.jpg)
+![People on kayak rentals from Active Oahu paddling in Kahana River](/images/placeholder-tour.jpg)
 
 ## **What to Expect**
 
@@ -35,18 +35,18 @@ When you reach the fork you previously encountered, take another right to paddle
 
 Once you enter the bay, you’ll find yourself surrounded by the Ko’olau mountains, this is a prime spot to continue exploring, swimming, and paddling as you take in the sights the Bay has to offer.
 
-![Four tandem kayak rentals paddling down Kahana River](https://activeoahutours.com/wp-content/uploads/2025/04/DJI_0689_1-2.jpg)
+![Four tandem kayak rentals paddling down Kahana River](/images/placeholder-tour.jpg)
 
 ## Concluding the Adventure
 
 When you have finished exploring the area, head back to the kayak launch spot where you entered and load your gear back into your vehicle. Return to our storefront in Kailua and our guides will make returning your rentals a quick and easy process so that you’ll be off on your next adventure in no time!
 
-- ![A view from Kahana River of the mountains](https://activeoahutours.com/wp-content/uploads/2025/04/Kahana-Valley-2.jpg)
-- ![Visitors landed on Kahana Bay beach with their kayak rentals from Active Oahu](https://activeoahutours.com/wp-content/uploads/2025/04/IMG_8867-edited-2.jpg)
-- ![Drone view of Kahana Bay](https://activeoahutours.com/wp-content/uploads/2025/04/Kahana-Bay-2.jpg)
-- ![people on a tandem kayak rental from Active Oahu in Kahana River](https://activeoahutours.com/wp-content/uploads/2025/04/IMG_8769-edited-2.jpg)
-- ![People on a tandem kayak rental from Active Oahu in Kahana River](https://activeoahutours.com/wp-content/uploads/2025/04/IMG_4530-edited-2.jpg)
-- ![Overhead view of two tandem kayak rentals from Active Oahu in the ocean](https://activeoahutours.com/wp-content/uploads/2025/04/DJI_0347-2-2.jpg)
-- ![Sunset at Kahana Bay](https://activeoahutours.com/wp-content/uploads/2025/04/DJI_0350-2-2.jpg)
-- ![Overhead view of Kahana River](https://activeoahutours.com/wp-content/uploads/2025/04/DJI_0153_1-2.jpg)
-- ![people using two tandem kayak rentals from Active Oahu in Kahana Bay](https://activeoahutours.com/wp-content/uploads/2025/04/DJI_0338-2-2.jpg)
+- ![A view from Kahana River of the mountains](/images/placeholder-tour.jpg)
+- ![Visitors landed on Kahana Bay beach with their kayak rentals from Active Oahu](/images/placeholder-tour.jpg)
+- ![Drone view of Kahana Bay](/images/placeholder-tour.jpg)
+- ![people on a tandem kayak rental from Active Oahu in Kahana River](/images/placeholder-tour.jpg)
+- ![People on a tandem kayak rental from Active Oahu in Kahana River](/images/placeholder-tour.jpg)
+- ![Overhead view of two tandem kayak rentals from Active Oahu in the ocean](/images/placeholder-tour.jpg)
+- ![Sunset at Kahana Bay](/images/placeholder-tour.jpg)
+- ![Overhead view of Kahana River](/images/placeholder-tour.jpg)
+- ![people using two tandem kayak rentals from Active Oahu in Kahana Bay](/images/placeholder-tour.jpg)

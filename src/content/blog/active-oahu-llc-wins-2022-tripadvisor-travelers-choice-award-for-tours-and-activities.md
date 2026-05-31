@@ -7,7 +7,7 @@ newUrl: "/blog/active-oahu-llc-wins-2022-tripadvisor-travelers-choice-award-for-
 description: "Laie, Hawaii – July 28, 2022 – Active Oahu, LLC today announced it has been recognized by Tripadvisor as a 2022 Travelers’ Choice award winner for Tours and Activities.  The award celebrates businesses that have received great traveler reviews from travelers around the globe on Tripadvisor over t..."
 ---
 
-![](https://activeoahutours.com/wp-content/uploads/2022/07/TC_2022_L_TRANSPARENT_BG_RGB.svg)
+![](/images/placeholder-tour.jpg)
 
 **Laie, Hawaii – July 28, 2022 –** Active Oahu, LLC today announced it has been recognized by Tripadvisor as a 2022 Travelers’ Choice award winner for Tours and Activities.  The award celebrates businesses that have received great traveler reviews from travelers around the globe on Tripadvisor over the last 12 months. As challenging as the past year was, Active Oahu stood out by consistently delivering positive experiences to travelers.
 

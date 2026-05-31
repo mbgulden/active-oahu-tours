@@ -4,15 +4,15 @@ slug: "kailua-oahu-storefront"
 pageType: "page"
 oldUrl: "/kailua-oahu-storefront/"
 newUrl: "/kailua-storefront/"
-description: "Escape the mainstream with our off-the-beaten-path adventures. We share the best scenery and adventures on Oahu with you as you enjoy our authentic and personalized tours and rentals.  About Active Oahu Active Oahu is a family-owned business, started in 2013, and built to share our Aloha. The own..."
+description: "Escape the mainstream with our off-the-beaten-path adventures. We share the best scenery and adventures on Oahu with you as you enjoy our authentic and perso..."
 ---
 
 Escape the mainstream with our off-the-beaten-path adventures. We share the best scenery and adventures on Oahu with you as you enjoy our authentic and personalized tours and rentals. 
 
-- ![](https://activeoahutours.com/wp-content/uploads/2025/03/Active-Oahu-373-1.jpg)
-- ![](https://activeoahutours.com/wp-content/uploads/2025/03/Active-Oahu-379.jpg)
-- ![](https://activeoahutours.com/wp-content/uploads/2025/03/Active-Oahu-385.jpg)
-- ![](https://activeoahutours.com/wp-content/uploads/2025/03/Active-Oahu-401.jpg)
+- ![](/images/placeholder-tour.jpg)
+- ![](/images/placeholder-tour.jpg)
+- ![](/images/placeholder-tour.jpg)
+- ![](/images/placeholder-tour.jpg)
 
 ## About Active Oahu
 

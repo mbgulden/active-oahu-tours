@@ -4,7 +4,7 @@ slug: "home-2"
 pageType: "home"
 oldUrl: "/home-2/"
 newUrl: "/"
-description: "Oahu Kayak Rentals & Tours Kailua Kayak & E-Bike Adventures With Aloha Enjoy the Best Kayaking & E-Bike Experiences in Oahu, Hawaii Kayak in Kailua to the Mokulua Islands, Kayak in Kualoa to Mokolii (Chinaman’s Hat), Kayak near Kaneohe Bay, or Explore the jungle river of Kahana near Laie. Book On..."
+description: "Oahu Kayak Rentals & Tours Kailua Kayak & E-Bike Adventures With Aloha Enjoy the Best Kayaking & E-Bike Experiences in Oahu, Hawaii Kayak in Kailua to the Mo..."
 ---
 
 # Oahu Kayak Rentals & Tours
@@ -17,7 +17,7 @@ Kayak in Kailua to the Mokulua Islands, Kayak in Kualoa to Mokolii (Chinaman’s
 
 [ ** Book Online **](https://fareharbor.com/embeds/book/activeoahutours/?u=f9b48d18-715e-4919-9c8e-077c045cf4bf&from-ssl=yes)
 
-![](https://activeoahutours.com/wp-content/uploads/2025/03/TC_transparent_BF-Logo_L_2024_RGB.png)
+![](/images/placeholder-tour.jpg)
 
 ### Kayak Tours
 
@@ -39,11 +39,11 @@ Kayak in Kailua to the Mokulua Islands, Kayak in Kualoa to Mokolii (Chinaman’s
 
 [**More Rental Info **](/oahu-equipment-rentals/)
 
-![Active Oahu Kailua Storefront Check-in](https://activeoahutours.com/wp-content/uploads/2025/03/Active-Oahu-373-e1743021729980.jpg)
+![Active Oahu Kailua Storefront Check-in](/images/placeholder-tour.jpg)
 
 ## “Great tour! It was so fun to e-bike, kayak, and see wildlife in one adventure”
 
-![Two people e-bike on the Kailua Marsh Trail](https://activeoahutours.com/wp-content/uploads/2026/02/Active-Oahu-Fall-2025-61.jpg)
+![Two people e-bike on the Kailua Marsh Trail](/images/placeholder-tour.jpg)
 
 ### Kailua E-Bike Kau Kau Guided Scenic Food Tour Adventure
 

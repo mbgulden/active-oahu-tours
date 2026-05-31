@@ -21,7 +21,7 @@ Although you can take a boat or stand-up paddleboard out to the sand bar, we opt
 
 - Kaneohe Bay is kayak friendly with no large waves (due to Kaneohe Bay’s barrier reef) and a prevailing breeze throughout the afternoon that pushes towards the shoreline (rather than out to sea!).
 
-![](https://activeoahutours.com/wp-content/uploads/2022/07/Kaneohe-Sandbar-Kayak-Self-Guided-Tour-21_2000-1024x682.jpg)
+![](/images/placeholder-tour.jpg)
 
 Tandem Sit-on-top kayaks are the way to go in Hawaii. They make it easy to hop in and out of whether you’re on the shoreline or floating in the bay. They are plastic and completely sealed, so they will float even when they are upside-down, although since there are self-draining holes in the kayak, you are guaranteed to get wet.
 
@@ -33,9 +33,9 @@ Your adventure starts at our [Kailua storefront](https://activeoahutours.com/kai
 
 We’ll provide all of the necessary gear and help you strap the kayaks to your vehicle before you drive down to your launch point at He’eia Kea Boat Harbor. 
 
-![Kailua, Active Oahu Storefront](https://activeoahutours.com/wp-content/uploads/2023/08/Kailua-Oahu-Storefront.jpg)
+![Kailua, Active Oahu Storefront](/images/placeholder-tour.jpg)
 
-![](https://activeoahutours.com/wp-content/uploads/2022/07/Kaneohe-Bay-Sandbar-Kayaking-06_2000-1024x713.jpg)
+![](/images/placeholder-tour.jpg)
 ### He’eia Kea Boat Harbor
 
 This pier is widely used by visitors looking to head to the sandbar so chances are, you won’t be alone when you arrive. The drive itself is 4.8 miles, about 10min from the Nursery. [Check Google Maps for Directions](https://goo.gl/maps/tm5HrsaQXkGFc5p89)
@@ -56,11 +56,11 @@ The paddle from the He’eia Kea Boat Harbor to the Kaneohe Sandbar takes about 
 
 ![Kayaking route to the Kaneohe bay Sandbar](https://activeoahutours.com/cdn-cgi/image/quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/2022/10/Kayaking-to-The-Kaneohe-Bay-Sandbar-941x1024.jpg)The Kayaking Route to the Kaneohe Bay Sandbar
 
-![](https://activeoahutours.com/wp-content/uploads/2022/07/Kaneohe-Sandbar-Kayak-Self-Guided-Tour-10_2000-1024x682.jpg)Kaneohe Sandbar views from above
+![](/images/placeholder-tour.jpg)Kaneohe Sandbar views from above
 
 Kaneohe bay itself is protected by an array of coral reefs so the waters are calm compared to open ocean kayaking. Once you get to the bar you’ll notice that the clouds pass right over your head and even though it may have been raining on shore, out on the sandbar it is sunny! 
 
-![](https://activeoahutours.com/wp-content/uploads/2022/07/Kaneohe-Sandbar-Kayak-Self-Guided-Tour-08_2000-1024x682.jpg)
+![](/images/placeholder-tour.jpg)
 
 Whether you choose one of our 4-hour time options available throughout the day or the all-day option, keep in mind that there is no shade on the sandbar, so wear sunscreen, hats, and beach cover-ups.
 
@@ -70,7 +70,7 @@ Our Kaneohe Sandbar self-guided package comes with a drybag and snorkeling gear 
 
 Book the Kaneohe Sandbar Self-guided Kayak Experience
 
-[Book Online](https://fareharbor.com/embeds/book/activeoahutours/items/400755/?full-items=yes&flow=2754)
+[Book Online](https://fareharbor.com/embeds/book/activeoahutours/items/400755/?full-items=yes)
 
 Not ready to book? [Learn More about our Kaneohe Sandbar Self-guided Kayak Experience](/activities/kaneohe-bay-sandbar-self-guided-kayaking-experience/)
 
