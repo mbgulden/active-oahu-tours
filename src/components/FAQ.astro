@@ -1,0 +1,66 @@
+---
+export interface Props {
+  faqs: Array<{ question: string; answer: string }>;
+  headline?: string;
+}
+
+const { faqs, headline = 'Frequently Asked Questions' } = Astro.props;
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+};
+---
+
+<section id="faq" class="py-16 lg:py-24 bg-sand/50">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-2xl lg:text-3xl font-bold text-navy text-center mb-10">{headline}</h2>
+
+    <dl class="space-y-4">
+      {faqs.map((faq, i) => (
+        <div class="bg-white rounded-xl p-5 lg:p-6 shadow-sm border border-sand">
+          <dt>
+            <button
+              class="flex w-full items-center justify-between text-left text-navy font-semibold hover:text-ocean transition-colors"
+              aria-expanded="false"
+              data-faq-trigger={i}
+            >
+              <span class="pr-4">{faq.question}</span>
+              <svg class="w-5 h-5 shrink-0 text-ocean transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+              </svg>
+            </button>
+          </dt>
+          <dd class="mt-3 text-navy/70 text-sm leading-relaxed hidden" data-faq-answer={i}>
+            {faq.answer}
+          </dd>
+        </div>
+      ))}
+    </dl>
+  </div>
+
+  <!-- FAQ Toggle Script -->
+  <script>
+    document.querySelectorAll('[data-faq-trigger]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const idx = (btn as HTMLElement).dataset.faqTrigger;
+        const answer = document.querySelector(`[data-faq-answer="${idx}"]`);
+        const icon = btn.querySelector('svg');
+        answer?.classList.toggle('hidden');
+        icon?.classList.toggle('rotate-180');
+        btn.setAttribute('aria-expanded', answer?.classList.contains('hidden') ? 'false' : 'true');
+      });
+    });
+  </script>
+</section>
+
+<!-- JSON-LD Schema -->
+<script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />

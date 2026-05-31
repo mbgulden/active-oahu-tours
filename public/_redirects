@@ -1,0 +1,28 @@
+# Cloudflare Pages Redirects — Active Oahu Tours
+# Reference: https://developers.cloudflare.com/pages/platform/redirects/
+# 
+# IMPORTANT: These redirects run AFTER the Astro build.
+# For Astro-level redirects, use astro.config.mjs redirects.
+# Files in public/ are copied to dist/ on build.
+
+# ── Old WordPress paths → new Astro anchors ─────────────
+/tours                          /#tours                     301
+/tours/kayak-mokulua           /#tours                     301
+/tours/kayak-kaneohe            /#tours                     301
+/tours/ebike-kailua             /#tours                     301
+/about                          /#about                     301
+/contact                        /#contact                   301
+/faq                            /#faq                       301
+
+# ── Booking deep links → FareHarbor ──────────────────────
+/book                           https://fareharbor.com/embeds/book/activeoahu/  301
+/reserve                        https://fareharbor.com/embeds/book/activeoahu/  301
+
+# ── WWW → apex canonical ─────────────────────────────────
+https://www.activeoahutours.com/*  https://activeoahutours.com/:splat  301
+
+# ── Trailing slash consistency ───────────────────────────
+# Astro handles this; but catch any stragglers
+/contact/                       /contact                    301
+/about/                         /about                      301
+/faq/                           /faq                        301

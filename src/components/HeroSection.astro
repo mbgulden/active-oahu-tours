@@ -1,0 +1,93 @@
+---
+export interface Props {
+  headline: string;
+  subheadline?: string;
+  image: string;
+  imageAlt: string;
+  ctaText?: string;
+  ctaLink?: string;
+  secondaryCtaText?: string;
+  secondaryCtaLink?: string;
+}
+
+const {
+  headline,
+  subheadline,
+  image,
+  imageAlt,
+  ctaText = 'Book Your Adventure',
+  ctaLink = '#book',
+  secondaryCtaText,
+  secondaryCtaLink = '#tours',
+} = Astro.props;
+---
+
+<section class="relative overflow-hidden min-h-[70vh] lg:min-h-[85vh] flex items-center">
+  <!-- Background Image -->
+  <div class="absolute inset-0 z-0">
+    <img
+      src={image}
+      alt={imageAlt}
+      class="w-full h-full object-cover"
+      loading="eager"
+      fetchpriority="high"
+    />
+    <!-- Overlay Gradient -->
+    <div class="absolute inset-0 bg-gradient-to-b from-navy/60 via-navy/40 to-navy/70" />
+  </div>
+
+  <!-- Content -->
+  <div class="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 lg:py-32">
+    <div class="max-w-2xl">
+      <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6">
+        {headline}
+      </h1>
+      {subheadline && (
+        <p class="text-lg sm:text-xl text-white/90 leading-relaxed mb-8 max-w-xl">
+          {subheadline}
+        </p>
+      )}
+      <div class="flex flex-col sm:flex-row gap-4">
+        <a
+          href={ctaLink}
+          class="inline-flex items-center justify-center px-8 py-3.5 bg-gold hover:bg-gold-dark text-navy font-bold text-lg rounded-xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+        >
+          {ctaText}
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+          </svg>
+        </a>
+        {secondaryCtaText && (
+          <a
+            href={secondaryCtaLink}
+            class="inline-flex items-center justify-center px-8 py-3.5 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-semibold text-lg rounded-xl border border-white/30 transition-all"
+          >
+            {secondaryCtaText}
+          </a>
+        )}
+      </div>
+    </div>
+
+    <!-- Trust Badges -->
+    <div class="mt-12 lg:mt-16 flex flex-wrap gap-6">
+      <div class="flex items-center gap-2 text-white/80">
+        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+        </svg>
+        <span class="text-sm font-medium">CPR Certified Guides</span>
+      </div>
+      <div class="flex items-center gap-2 text-white/80">
+        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+        </svg>
+        <span class="text-sm font-medium">5-Star Rated</span>
+      </div>
+      <div class="flex items-center gap-2 text-white/80">
+        <svg class="w-5 h-5 text-gold" fill="currentColor" viewBox="0 0 20 20">
+          <path fill-rule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+        </svg>
+        <span class="text-sm font-medium">Free Cancellation</span>
+      </div>
+    </div>
+  </div>
+</section>

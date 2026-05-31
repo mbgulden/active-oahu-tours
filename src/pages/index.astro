@@ -1,0 +1,202 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import HeroSection from '../components/HeroSection.astro';
+import TourCard from '../components/TourCard.astro';
+import FAQ from '../components/FAQ.astro';
+
+const tours = await getCollection('tours');
+const featuredTours = tours.filter((t) => t.data.featured);
+
+const pageTitle = 'Active Oahu Tours | Guided Kayak & E-Bike Adventures';
+const pageDescription = 'Explore Oahu\'s windward coast with guided kayak, e-bike, and outdoor adventures. Paddle to the Mokulua Islands, cruise Kaneohe Bay, and discover Kailua by e-bike.';
+
+const localBusinessSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  name: 'Active Oahu Tours',
+  description: pageDescription,
+  image: 'https://activeoahutours.com/images/og-default.jpg',
+  '@id': 'https://activeoahutours.com',
+  url: 'https://activeoahutours.com',
+  telephone: '(808) 555-1234',
+  email: 'aloha@activeoahutours.com',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '130 Kailua Road',
+    addressLocality: 'Kailua',
+    addressRegion: 'HI',
+    postalCode: '96734',
+    addressCountry: 'US',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 21.396,
+    longitude: -157.739,
+  },
+  openingHoursSpecification: {
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+    opens: '07:00',
+    closes: '18:00',
+  },
+  priceRange: '$$',
+  sameAs: [
+    'https://www.instagram.com/activeoahutours',
+    'https://www.facebook.com/activeoahutours',
+  ],
+};
+
+const allFAQs = tours.flatMap((t) => t.data.faqs || []);
+const uniqueFAQs = allFAQs.filter(
+  (faq, i, self) => self.findIndex((f) => f.question === faq.question) === i
+).slice(0, 6);
+---
+
+<BaseLayout
+  title={pageTitle}
+  description={pageDescription}
+  image="/images/og-default.jpg"
+  schema={localBusinessSchema}
+>
+  <!-- Hero -->
+  <HeroSection
+    headline="Paddle, Pedal, and Explore Oahu's Windward Coast"
+    subheadline="Guided kayak and e-bike adventures on the most beautiful side of the island. No experience needed — just bring your sense of adventure."
+    image="/images/hero-kayak.jpg"
+    imageAlt="Kayakers paddling on crystal-clear turquoise water with Oahu's Ko'olau mountains in the background"
+    ctaText="View All Tours"
+    ctaLink="#tours"
+    secondaryCtaText="Learn More"
+    secondaryCtaLink="#about"
+  />
+
+  <!-- Tours Section -->
+  <section id="tours" class="py-16 lg:py-24 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl lg:text-4xl font-bold text-navy mb-4">Our Adventures</h2>
+        <p class="text-lg text-navy/60 max-w-2xl mx-auto">
+          From the iconic Mokulua Islands to the tranquil waters of Kaneohe Bay. Pick your adventure and let's get outside.
+        </p>
+      </div>
+
+      {featuredTours.length > 0 ? (
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+          {featuredTours.map((tour) => (
+            <TourCard
+              title={tour.data.title}
+              slug={tour.data.slug}
+              image={tour.data.image}
+              imageAlt={tour.data.imageAlt}
+              price={tour.data.price}
+              priceLabel={tour.data.priceLabel}
+              duration={tour.data.duration}
+              difficulty={tour.data.difficulty}
+              location={tour.data.location}
+              highlights={tour.data.highlights}
+            />
+          ))}
+        </div>
+      ) : (
+        <p class="text-center text-navy/50">Tour listings coming soon!</p>
+      )}
+    </div>
+  </section>
+
+  <!-- About / Trust Signals Section -->
+  <section id="about" class="py-16 lg:py-24 bg-navy text-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl lg:text-4xl font-bold mb-4">Why Adventure With Us</h2>
+        <p class="text-lg text-white/70 max-w-2xl mx-auto">
+          We're Oahu locals who know these waters, trails, and coastlines better than anyone. Every tour is led by passionate guides who put safety, fun, and authentic Hawaiian experiences first.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div class="text-center p-6 rounded-2xl bg-navy-light/50 border border-white/10">
+          <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-ocean/20 mb-4">
+            <svg class="w-7 h-7 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-lg mb-2">Safety First</h3>
+          <p class="text-white/60 text-sm">All guides are CPR/First Aid certified. Top-quality gear, thorough briefings, and weather monitoring on every tour.</p>
+        </div>
+
+        <div class="text-center p-6 rounded-2xl bg-navy-light/50 border border-white/10">
+          <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-ocean/20 mb-4">
+            <svg class="w-7 h-7 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-lg mb-2">Local Experts</h3>
+          <p class="text-white/60 text-sm">Born-and-raised Oahu guides who share insider knowledge, history, and hidden gems you won't find in guidebooks.</p>
+        </div>
+
+        <div class="text-center p-6 rounded-2xl bg-navy-light/50 border border-white/10">
+          <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-ocean/20 mb-4">
+            <svg class="w-7 h-7 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-lg mb-2">No Experience Needed</h3>
+          <p class="text-white/60 text-sm">Our tours are designed for all skill levels. From beginners to experienced adventurers, we make sure everyone has a great time.</p>
+        </div>
+
+        <div class="text-center p-6 rounded-2xl bg-navy-light/50 border border-white/10">
+          <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-ocean/20 mb-4">
+            <svg class="w-7 h-7 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"/>
+            </svg>
+          </div>
+          <h3 class="font-bold text-lg mb-2">Free Cancellation</h3>
+          <p class="text-white/60 text-sm">Plans change! Cancel up to 24 hours before your tour for a full refund. Weather-related cancellations are always free.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FareHarbor Booking Section -->
+  <section id="book" class="py-16 lg:py-24 bg-ocean text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl lg:text-4xl font-bold mb-4">Ready for Your Oahu Adventure?</h2>
+      <p class="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
+        Reserve your spot today. Tours fill up fast — especially during peak season. Use our live booking calendar below to check availability and secure your date.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+        <a
+          href="https://fareharbor.com/embeds/book/activeoahutours/?full-items=yes"
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center px-10 py-4 bg-gold hover:bg-gold-dark text-navy font-bold text-lg rounded-xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+        >
+          Book on FareHarbor
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+          </svg>
+        </a>
+        <a
+          href="tel:+18085551234"
+          class="inline-flex items-center px-10 py-4 bg-white/10 backdrop-blur-sm hover:bg-white/20 text-white font-semibold text-lg rounded-xl border border-white/30 transition-all"
+        >
+          📞 (808) 555-1234
+        </a>
+      </div>
+      <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10">
+        <p class="text-white/70 text-sm mb-4">Live Booking Calendar</p>
+        <div id="fareharbor-landing-lightframe" class="min-h-[500px]">
+          <p class="text-center text-white/50 py-12">Loading booking calendar...</p>
+        </div>
+        <script src="https://fareharbor.com/embeds/api/v1/?autolightframe=yes"></script>
+      </div>
+      <p class="mt-6 text-sm text-white/50">
+        Free cancellation up to 24 hours before your tour. Weather-related cancellations always free.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <FAQ faqs={uniqueFAQs} headline="Got Questions? We've Got Answers" />
+</BaseLayout>
